@@ -1,0 +1,58 @@
+# Claude yangi posts/SANA/post.json qo'shganda rasmlarni yasaydi va repoga qo'shadi.
+name: Render post images
+
+on:
+  push:
+    branches: [main]
+    paths: ["posts/**/post.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: render
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - run: pip install pillow
+
+      - name: Render new or changed posts
+        run: |
+          BEFORE="${{ github.event.before }}"
+          CHANGED=""
+          if [ -n "$BEFORE" ] && git cat-file -e "$BEFORE^{commit}" 2>/dev/null; then
+            CHANGED=$(git diff --name-only "$BEFORE" HEAD -- 'posts/*/post.json')
+          fi
+          for f in posts/*/post.json; do
+            [ -f "$f" ] || continue
+            d=$(dirname "$f")
+            if [ ! -f "$d/01.jpg" ] || echo "$CHANGED" | grep -qx "$f"; then
+              rm -f "$d"/[0-9][0-9].jpg
+              python render.py "$f"
+            fi
+          done
+
+      - name: Commit images
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add posts
+          if git diff --cached --quiet; then
+            echo "Yangi rasm yo'q"
+          else
+            git commit -m "render: post rasmlari"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
