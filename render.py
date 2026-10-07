@@ -11,7 +11,7 @@ Slayd turlari: cover, point, list, stat, cta  (README.md ga qarang)
 Sarlavhalarda *so'z* ko'rinishida yozilgan so'zlar to'q fonda oltin rangda chiqadi
 (och fonda rang ishlatilmaydi — minimalist uslub).
 
-Logo: assets/logo.png (yoki logo-512.png, logo.jpg) bo'lsa, bir rangli qilib
+Logo: assets/logo_dark.b64 (base64 PNG) yoki assets/logo.png bo‘lsa, bir rangli qilib
 yuqori chap burchakka qo'yiladi. Telegram va sayt manzillari brand.json dan olinadi.
 """
 import json
@@ -170,6 +170,12 @@ def load_logo_mask():
     if "mask" in _LOGO_CACHE:
         return _LOGO_CACHE["mask"]
     mask = None
+    rgba = load_logo_rgba()
+    if rgba is not None and rgba.getchannel("A").getbbox():
+        mask = rgba.getchannel("A")
+        mask = mask.crop(mask.getbbox())
+        _LOGO_CACHE["mask"] = mask
+        return mask
     for name in ("logo.png", "logo-512.png", "logo.jpg", "logo.jpeg"):
         p = ROOT / "assets" / name
         if not p.exists():
@@ -371,10 +377,155 @@ RENDERERS = {
 }
 
 
+# ---------------------------------------------------------------------------
+# HTML renderer: post.json da "renderer": "html" bo'lsa ishlatiladi.
+# Har slayd: {"theme": "dark"|"light", "html": "<...>", "footer": true}
+# Umumiy dizayn (shrift, rang, logo, sarlavha/pastki qator) shu yerda — CSS.
+# Chrome headless bilan 1080x1350 skrinshot olinadi (GitHub Actions'da google-chrome bor).
+# ---------------------------------------------------------------------------
+
+def find_chrome():
+    import glob
+    import os
+    import shutil
+    for c in (os.environ.get("CHROME_BIN"), "google-chrome", "google-chrome-stable", "chromium", "chromium-browser"):
+        if c and shutil.which(c):
+            return shutil.which(c)
+    for p in sorted(glob.glob("/opt/pw-browsers/chromium-*/chrome-linux/chrome")):
+        return p
+    sys.exit("Chrome/Chromium topilmadi (CHROME_BIN o'zgaruvchisini bering).")
+
+
+def load_logo_rgba():
+    """assets/logo_dark.b64 (base64 PNG matn), yoki logo_dark.png / logo.png -> RGBA rasm. Topilmasa None."""
+    import base64
+    import io
+    for name in ("logo_dark.b64", "logo_dark.png", "logo.png"):
+        p = ROOT / "assets" / name
+        if not p.exists():
+            continue
+        try:
+            raw = base64.b64decode("".join(p.read_text().split())) if name.endswith(".b64") else p.read_bytes()
+            im = Image.open(io.BytesIO(raw))
+            im.load()
+            return im.convert("RGBA")
+        except Exception:
+            continue
+    return None
+
+
+def logo_uri(on_dark):
+    """Och fonda — asl rangli logo; to'q fonda — oq (PAPER) bir rangli logo. data: URI yoki None."""
+    import base64
+    import io
+    im = load_logo_rgba()
+    if im is None:
+        return None
+    if on_dark:
+        mono = Image.new("RGBA", im.size, hex2rgb(PAPER) + (0,))
+        mono.putalpha(im.getchannel("A"))
+        im = mono
+    buf = io.BytesIO()
+    im.save(buf, "PNG")
+    return "data:image/png;base64," + base64.b64encode(buf.getvalue()).decode()
+
+
+HTML_CSS = """
+@font-face { font-family: Sora; src: url("__FONTS__/Sora.ttf"); font-weight: 100 800; }
+@font-face { font-family: Manrope; src: url("__FONTS__/Manrope.ttf"); font-weight: 200 800; }
+:root { --navy: __NAVY__; --paper: __PAPER__; --gold: __GOLD__; }
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { width: 1080px; height: 1350px; overflow: hidden; background: #000; }
+body { font-family: Manrope, sans-serif; -webkit-font-smoothing: antialiased; text-rendering: geometricPrecision; }
+.slide { position: relative; width: 1080px; height: 1350px; padding: 72px 88px 76px; display: flex; flex-direction: column; overflow: hidden; }
+.light { --bg: var(--paper); --fg: var(--navy); --muted: rgba(15,30,58,.62); --soft: rgba(15,30,58,.08); --line: rgba(15,30,58,.14); --card: #FBFBF8; }
+.dark  { --bg: var(--navy); --fg: var(--paper); --muted: rgba(242,243,239,.66); --soft: rgba(242,243,239,.07); --line: rgba(242,243,239,.16); --card: rgba(242,243,239,.05); }
+.slide { background: var(--bg); color: var(--fg); }
+.top { display: flex; justify-content: space-between; align-items: center; height: 76px; flex: none; }
+.brand { display: flex; align-items: center; gap: 16px; }
+.brand img { height: 76px; width: auto; display: block; }
+.wordmark { font: 800 22px/1 Manrope; letter-spacing: .2em; }
+.count { font: 600 21px/1 Manrope; color: var(--muted); letter-spacing: .06em; font-variant-numeric: tabular-nums; }
+.body { flex: 1; display: flex; flex-direction: column; justify-content: center; min-height: 0; }
+.bottom { flex: none; display: flex; justify-content: space-between; align-items: center; padding-top: 22px;
+          border-top: 1.5px solid var(--line); font: 600 21px/1 Manrope; color: var(--muted); }
+.kicker { font: 700 22px/1 Manrope; letter-spacing: .16em; text-transform: uppercase; color: var(--gold); }
+.light .kicker { color: #9A7A2E; }
+h1, h2 { font-family: Sora; font-weight: 800; letter-spacing: -.025em; }
+h1 { font-size: 92px; line-height: 1.06; }
+h2 { font-size: 64px; line-height: 1.1; }
+.gold { color: var(--gold); }
+.lead { font: 500 32px/1.45 Manrope; color: var(--muted); }
+.won { font-family: Manrope; font-weight: 700; }
+.num { font-family: Sora; font-weight: 800; letter-spacing: -.03em; font-variant-numeric: tabular-nums; }
+.small { font: 500 23px/1.45 Manrope; color: var(--muted); }
+.rule { width: 56px; height: 5px; background: var(--gold); }
+"""
+
+
+def html_page(spec, s, idx, total):
+    fonts = (ROOT / "fonts").as_uri()
+    css = (HTML_CSS.replace("__FONTS__", fonts).replace("__NAVY__", NAVY)
+           .replace("__PAPER__", PAPER).replace("__GOLD__", GOLD)) + spec.get("css", "")
+    theme = s.get("theme", "light")
+    logo = logo_uri(theme == "dark")
+    brand = (f'<img src="{logo}" alt=""><span class="wordmark">{BRAND["wordmark"]}</span>' if logo
+             else f'<span class="wordmark">{BRAND["wordmark"]}</span>')
+    count = f"{idx:02d} / {total:02d}" if total > 1 else ""
+    foot = ""
+    if s.get("footer", True):
+        left = s.get("footer_left") or BRAND.get("telegram", "")
+        right = s.get("footer_right") or BRAND.get("website", "")
+        foot = f'<div class="bottom"><span>{left}</span><span>{right}</span></div>'
+    return f"""<!doctype html><html><head><meta charset="utf-8"><style>{css}</style></head>
+<body><div class="slide {theme} {s.get('cls', '')}">
+<div class="top"><div class="brand">{brand}</div><div class="count">{count}</div></div>
+<div class="body">{uz_html(s['html'])}</div>{foot}</div></body></html>"""
+
+
+def uz_html(markup):
+    """Faqat matn qismlarida (teglar tashqarisida) o'zbekcha apostroflarni to'g'rilaydi."""
+    parts = re.split(r"(<[^>]+>)", markup)
+    return "".join(p if p.startswith("<") else uz(p) for p in parts)
+
+
+def render_html(spec, post_json):
+    import subprocess
+    import tempfile
+    chrome = find_chrome()
+    slides = spec["slides"]
+    out = []
+    with tempfile.TemporaryDirectory() as tmp:
+        tmp = Path(tmp)
+        for i, s in enumerate(slides, 1):
+            page = tmp / f"s{i:02d}.html"
+            page.write_text(html_page(spec, s, i, len(slides)), encoding="utf-8")
+            png = tmp / f"s{i:02d}.png"
+            cmd = [chrome, "--headless=new", "--no-sandbox", "--disable-gpu", "--hide-scrollbars",
+                   "--force-device-scale-factor=1", "--font-render-hinting=none", "--window-size=1080,1500",
+                   "--virtual-time-budget=5000", f"--user-data-dir={tmp / 'profile'}",
+                   f"--screenshot={png}", page.as_uri()]
+            subprocess.run(cmd, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL, timeout=120)
+            img = Image.open(png).convert("RGB")
+            if img.size != (W, H):
+                canvas = Image.new("RGB", (W, H), hex2rgb(NAVY))
+                canvas.paste(img.crop((0, 0, min(W, img.width), min(H, img.height))), (0, 0))
+                img = canvas
+            path = post_json.parent / f"{i:02d}.jpg"
+            img.save(path, "JPEG", quality=93, optimize=True, progressive=False)
+            out.append(path)
+            print(path)
+    return out
+
+
 def render(post_json):
     post_json = Path(post_json)
     spec = json.loads(post_json.read_text(encoding="utf-8"))
     slides = spec["slides"]
+    if spec.get("renderer") == "html":
+        if not 1 <= len(slides) <= 10:
+            sys.exit("Slaydlar soni 1 dan 10 gacha bo'lishi kerak (Instagram karusel limiti).")
+        return render_html(spec, post_json)
     if not 1 <= len(slides) <= 10:
         sys.exit("Slaydlar soni 1 dan 10 gacha bo'lishi kerak (Instagram karusel limiti).")
     n = 0
