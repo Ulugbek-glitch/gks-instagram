@@ -47,7 +47,12 @@ Qoidalar:
 - Format: odatda karusel — `cover` + 3–5 ta `point`/`list` + `cta` (jami 5–7 slayd, max 10).
   Ba'zan bitta slaydli post (`stat` yoki `cover`) ham bo'lishi mumkin.
 - Slayd matni qisqa: sarlavha ≤ 8 so'z, `body` ≤ 45 so'z, `list` ≤ 6 band.
-- `caption` ≤ 2200 belgi; oxirida 5–10 ta heshteg (max 30).
+- Slayd matnida ham professional, adabiy o'zbek tili: "siz" murojaati, jargon va bosh harflar bilan baqirish yo'q.
+  `*oltin so'z*` belgisini faqat `cover` va `cta` sarlavhasida, ko'pi bilan bitta so'z/ibora uchun ishlat.
+- **Caption (izoh) — `content/plan.md` dagi "Caption tuzilmasi" ga aynan amal qil.** Qisqacha:
+  kuchli birinchi gap → 2–4 qisqa xatboshi yoki raqamlangan fikrlar → yumshoq chaqiriq →
+  aloqa bloki (Telegram va sayt, `brand.json` dagi manzillar) → bo'sh qator → 5–8 heshteg.
+  Uzunligi 600–1200 belgi (max 2200). Emoji ko'pi bilan 3 ta va faqat belgi sifatida (📌 ✅ 👉 🇰🇷).
 - **Faktlar:** raqam, sana, foiz, kvota, muddat — faqat `content/facts.md` ning "Tasdiqlangan" bo'limidan.
   U yerda yo'q bo'lsa — raqamsiz, umumiy maslahat yoz. "Tasdiqlash kutilmoqda" bo'limidagilarni ISHLATMA.
 - Taqiqlar: "100% grant olasiz" kabi kafolatlar; o'ylab topilgan talaba hikoyalari yoki sharhlar;
