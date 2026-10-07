@@ -5,7 +5,29 @@ O'zbekistondagi 16–24 yoshli abituriyentlar va ularning ota-onalari, GKS-U (Ko
 bakalavriat stipendiyasi) ga topshirmoqchi bo'lganlar.
 
 ## Ohang
-Aniq, foydali, xotirjam. Ustoz kabi — qo'rqitmaydi, va'da bermaydi. Har postda bitta aniq foyda.
+Professional, aniq va xotirjam — ta'lim markazi ovozi. Ustoz kabi: qo'rqitmaydi, va'da bermaydi,
+mubolag'a qilmaydi. Har postda bitta aniq foyda. "Siz" murojaati, adabiy o'zbek tili (lotin),
+jargon, ruscha-o'zbekcha aralash so'zlar va "eng zo'r", "100%", "kafolat" kabi iboralar yo'q.
+
+## Caption tuzilmasi
+```
+[1-gap: muammo yoki savol — aniq, clickbait'siz]
+
+[2–4 qisqa xatboshi yoki 1. 2. 3. ko'rinishidagi fikrlar — slayddagi asosiy g'oyalarni
+to'ldiradi, takrorlamaydi]
+
+[Yumshoq chaqiriq: "Postni saqlab qo'ying", "Savolingizni izohda qoldiring" yoki
+"Batafsil maslahat uchun Telegram kanalimizga qo'shiling"]
+
+📌 Telegram: t.me/gks_academic
+🌐 Sayt: zzephyrrpro.wixsite.com/gks-academics
+
+#GKS #GKSU #GlobalKoreaScholarship ...
+```
+- Uzunligi 600–1200 belgi. Har xatboshi 1–3 gap.
+- Emoji ko'pi bilan 3 ta (aloqa blokidagilar bilan birga), faqat belgi vazifasida.
+- Imlo: o‘, g‘, ’ belgilari; vergul va nuqtalar to'g'ri; har gap bosh harf bilan.
+- Aloqa blokidagi manzillar `brand.json` dagi `telegram` va `website` bilan bir xil bo'lsin.
 
 ## Mavzu ustunlari (navbatma-navbat)
 1. `asoslar` — GKS nima, yo'llar (Elchixona / Universitet), qamrov, kimlar topshira oladi
@@ -27,6 +49,6 @@ Aniq, foydali, xotirjam. Ustoz kabi — qo'rqitmaydi, va'da bermaydi. Har postda
 - "Savolingizni izohda yozing"
 - "DM ga “GKS” deb yozing" (faqat `gks-academics` va ba'zi postlarda)
 
-## Heshteglar (5–10 tasini tanlang)
+## Heshteglar (5–8 tasini tanlang)
 #GKS #GKSU #GlobalKoreaScholarship #KoreyadaOqish #Koreya #grant #stipendiya #TOPIK
 #Ozbekiston #abituriyent #GKSAcademics #koreystili
