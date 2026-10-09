@@ -2,11 +2,12 @@
   "name": "GKS Academics",
   "wordmark": "GKS ACADEMICS",
   "telegram": "t.me/gks_academic",
-  "website": "zzephyrrpro.wixsite.com/gks-academics",
+  "website": "gks-academics.gks-academics.workers.dev",
   "swipe_hint": "Surib o‘ting →",
   "colors": {
     "navy": "#0F1E3A",
     "paper": "#F2F3EF",
     "gold": "#C9A34E"
-  }
+  },
+  "instagram": "@gks_academics"
 }
