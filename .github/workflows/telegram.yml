@@ -1,0 +1,53 @@
+# Instagram karusel rasmlarini Telegram kanalga albom qilib yuboradi (telegram/send_post.py).
+name: Telegram crosspost
+
+on:
+  workflow_run:
+    workflows: ["Render post images"]
+    types: [completed]
+  schedule:
+    - cron: "37 15 * * *"  # zaxira: 20:37 Toshkent
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "Post sanasi (YYYY-MM-DD). Bo'sh qolsa: yuborilmagan yangi postlar"
+        required: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: telegram
+  cancel-in-progress: false
+
+jobs:
+  send:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Instagram'ga joylanishini kutish
+        if: github.event_name == 'workflow_run'
+        run: sleep 420
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Telegram'ga yuborish
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: "@gks_academic"
+          POST_DATE: ${{ inputs.date }}
+        run: python3 telegram/send_post.py
+      - name: Holatni saqlash
+        if: always()
+        run: |
+          [ -f telegram/sent.json ] || exit 0
+          git add telegram/sent.json
+          git diff --cached --quiet && exit 0
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -qm "telegram: yuborildi"
+          for i in 1 2 3; do
+            git pull -q --rebase origin main && git push -q origin HEAD:main && exit 0
+            sleep 5
+          done
+          exit 1
