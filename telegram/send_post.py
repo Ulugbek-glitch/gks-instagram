@@ -14,12 +14,21 @@ Muhit o'zgaruvchilari:
 Izoh Instagram caption'idan olinadi: heshteglar va Telegram havolasi olib tashlanadi,
 o'rniga Instagram havolasi qo'yiladi. Holat: telegram/sent.json (qayta yuborilmaydi).
 Faqat standart kutubxona ishlatiladi.
+
+Videolar (Reels): telegram/videos/SANA.json — {"video": "reels/fayl.mp4", "text": "...",
+"cover_at": 3.0}. Video va matn kanalga sendVideo bilan ketadi (matn o'zgartirilmaydi,
+Instagram havolasi qo'shilmaydi). Muqova: ffmpeg bo'lsa, cover_at soniyadagi kadr.
+Video fayli hali repoda bo'lmasa, o'tkazib yuboriladi va keyingi ishga tushishda yuboriladi.
+Holat kaliti: "video:SANA".
 """
 import datetime as dt
 import json
 import os
 import re
+import shutil
+import subprocess
 import sys
+import tempfile
 import time
 import urllib.error
 import urllib.request
@@ -29,6 +38,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 POSTS = ROOT / "posts"
 STATE = ROOT / "telegram" / "sent.json"
+VIDEOS = ROOT / "telegram" / "videos"
+CTYPES = {".jpg": "image/jpeg", ".jpeg": "image/jpeg", ".png": "image/png", ".mp4": "video/mp4"}
 API = os.environ.get("TELEGRAM_API", "https://api.telegram.org")
 TZ = dt.timezone(dt.timedelta(hours=5))  # Toshkent (AGENT.md dagi DATE ham shu bo'yicha)
 START = "2026-10-11"   # bundan oldingi postlar avtomatik yuborilmaydi (qo'lda yuborish mumkin)
@@ -84,7 +95,8 @@ def multipart(fields, files):
         out += str(value).encode() + b"\r\n"
     for name, path in files.items():
         out += (f'--{boundary}\r\nContent-Disposition: form-data; name="{name}"; '
-                f'filename="{path.name}"\r\nContent-Type: image/jpeg\r\n\r\n').encode()
+                f'filename="{path.name}"\r\nContent-Type: '
+                f'{CTYPES.get(path.suffix.lower(), "application/octet-stream")}\r\n\r\n').encode()
         out += path.read_bytes() + b"\r\n"
     out += f"--{boundary}--\r\n".encode()
     return bytes(out), f"multipart/form-data; boundary={boundary}"
@@ -188,6 +200,141 @@ def candidates(state, forced):
                   and lo <= p.name <= hi and p.name not in state)
 
 
+def find_video(rel):
+    """Video faylini topadi: avval ko'rsatilgan yo'l, bo'lmasa repodagi shu nomli fayl."""
+    path = ROOT / rel
+    if path.is_file():
+        return path
+    for cand in sorted(ROOT.rglob(Path(rel).name)):
+        if ".git" not in cand.parts and cand.is_file():
+            return cand
+    return None
+
+
+def find_ffmpeg():
+    """Tizimdagi ffmpeg; bo'lmasa imageio-ffmpeg (pip) ichidagi tayyor ffmpeg; bo'lmasa None."""
+    ff = shutil.which("ffmpeg")
+    if ff:
+        return ff
+    try:
+        subprocess.run([sys.executable, "-m", "pip", "install", "-q", "--user", "imageio-ffmpeg"],
+                       check=True, timeout=180, capture_output=True)
+        out = subprocess.run([sys.executable, "-c", "import imageio_ffmpeg as m; print(m.get_ffmpeg_exe())"],
+                             check=True, timeout=60, capture_output=True, text=True)
+        return out.stdout.strip() or None
+    except (subprocess.SubprocessError, OSError) as e:
+        log(f"::warning::ffmpeg topilmadi ({e}) — video muqovasiz yuboriladi.")
+        return None
+
+
+def make_covers(video, at, tmp):
+    """ffmpeg bo'lsa: to'liq muqova va 320px eskiz. Bo'lmasa — {}."""
+    if at is None:
+        return {}
+    ff = find_ffmpeg()
+    if not ff:
+        return {}
+    out = {}
+    for name, vf in (("cover", None), ("thumbnail", "scale=320:-2")):
+        dst = Path(tmp) / f"{name}.jpg"
+        cmd = [ff, "-v", "error", "-y", "-ss", str(at), "-i", str(video), "-frames:v", "1", "-q:v", "3"]
+        if vf:
+            cmd += ["-vf", vf]
+        try:
+            subprocess.run(cmd + [str(dst)], check=True, timeout=60)
+        except (subprocess.SubprocessError, OSError) as e:
+            log(f"::warning::Muqova kadri olinmadi ({name}): {e}")
+            return {}
+        if dst.is_file() and dst.stat().st_size > 0:
+            out[name] = dst
+    if "thumbnail" in out and out["thumbnail"].stat().st_size > 200_000:
+        del out["thumbnail"]  # Telegram eskiz chegarasi 200 kB
+    return out
+
+
+def send_video(token, chat, video, text, meta, covers):
+    """Videoni yuboradi. Qaytaradi: (message_ids, matn_alohida_yuborilishi_kerakmi)."""
+    fits = bool(text) and utf16_len(text) <= CAPTION_LIMIT
+    fields = {"chat_id": chat, "supports_streaming": "true"}
+    for key in ("width", "height", "duration"):
+        if meta.get(key):
+            fields[key] = int(meta[key])
+    if fits:
+        fields["caption"] = text
+    files = {"video": video}
+    extra = {}
+    if "cover" in covers:
+        extra["cover"] = "attach://cover"
+        files["cover"] = covers["cover"]
+    if "thumbnail" in covers:
+        extra["thumbnail"] = "attach://thumbnail"
+        files["thumbnail"] = covers["thumbnail"]
+    try:
+        msg = call(token, "sendVideo", {**fields, **extra}, files)
+    except TelegramError as e:
+        if e.code != 400 or not extra:
+            raise
+        log(f"::warning::Muqova bilan yuborilmadi ({e.desc}) — muqovasiz qayta urinilmoqda.")
+        msg = call(token, "sendVideo", fields, {"video": video})
+    return [msg["message_id"]], bool(text) and not fits
+
+
+def video_candidates(state, forced):
+    if not VIDEOS.is_dir():
+        return []
+    names = sorted(p.stem for p in VIDEOS.glob("*.json") if re.fullmatch(r"\d{4}-\d{2}-\d{2}", p.stem))
+    if forced:
+        return [d for d in names if d == forced]
+    today = dt.date.fromisoformat(os.environ.get("TODAY") or dt.datetime.now(TZ).date().isoformat())
+    lo = max(START, (today - dt.timedelta(days=MAX_AGE_DAYS)).isoformat())
+    return [d for d in names if lo <= d <= today.isoformat() and f"video:{d}" not in state]
+
+
+def send_videos(token, chat, state, forced):
+    for date in video_candidates(state, forced):
+        key = f"video:{date}"
+        if key in state:
+            log(f"{date}: video allaqachon yuborilgan ({state[key].get('sent_at')}).")
+            continue
+        try:
+            meta = json.loads((VIDEOS / f"{date}.json").read_text(encoding="utf-8"))
+        except ValueError as e:
+            return fail(f"{date}: telegram/videos/{date}.json o'qilmadi — {e}.")
+        rel = (meta.get("video") or "").strip()
+        video = find_video(rel) if rel else None
+        if not video:
+            log(f"::warning::{date}: video fayli ({rel or '—'}) hali repoda yo'q — keyingi safar yuboriladi.")
+            summary(f"⏳ {date}: video fayli hali repoda yo'q ({rel}).")
+            continue
+        size = video.stat().st_size
+        if size > 50 * 1024 * 1024:
+            return fail(f"{date}: video {size // (1024 * 1024)} MB — Telegram bot chegarasi 50 MB.")
+        text = (meta.get("text") or "").strip()
+        with tempfile.TemporaryDirectory() as tmp:
+            covers = make_covers(video, meta.get("cover_at"), tmp)
+            try:
+                ids, text_separately = send_video(token, chat, video, text, meta, covers)
+            except TelegramError as e:
+                return fail(f"{date}: video — Telegram xatosi {e.code} — {e.desc}. {hint(e)}".strip())
+            except (urllib.error.URLError, TimeoutError, OSError) as e:
+                return fail(f"{date}: video — Telegram'ga ulanib bo'lmadi — {e}.")
+        state[key] = {"sent_at": dt.datetime.now(TZ).isoformat(timespec="seconds"), "chat": chat,
+                      "video": str(video.relative_to(ROOT)), "message_ids": ids}
+        save_state(state)
+        if text_separately:
+            try:
+                msg = call(token, "sendMessage", {
+                    "chat_id": chat, "text": text,
+                    "link_preview_options": json.dumps({"is_disabled": True})})
+            except (TelegramError, urllib.error.URLError, TimeoutError, OSError) as e:
+                return fail(f"{date}: video yuborildi, lekin matn yuborilmadi — {e}.")
+            state[key]["message_ids"].append(msg["message_id"])
+            save_state(state)
+        log(f"{date}: video yuborildi -> {chat} ({video.name}, {size // 1024} KB)")
+        summary(f"✅ {date}: video «{meta.get('topic', video.name)}» {chat} kanaliga yuborildi.")
+    return 0
+
+
 def main():
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     chat = os.environ.get("TELEGRAM_CHAT_ID", "").strip() or "@gks_academic"
@@ -211,7 +358,7 @@ def main():
             continue
         folder = POSTS / date
         if not (folder / "post.json").exists():
-            if forced:
+            if forced and not (VIDEOS / f"{date}.json").exists():
                 return fail(f"{date}: posts/{date}/post.json topilmadi.")
             continue
         post = json.loads((folder / "post.json").read_text(encoding="utf-8"))
@@ -247,7 +394,7 @@ def main():
         log(f"{date}: yuborildi — {len(ids)} ta rasm -> {chat}"
             + (" (izoh alohida xabarda)" if text_separately else ""))
         summary(f"✅ {date}: «{post.get('topic', '')}» — {len(ids)} ta rasm {chat} kanaliga yuborildi.")
-    return 0
+    return send_videos(token, chat, state, forced)
 
 
 if __name__ == "__main__":
