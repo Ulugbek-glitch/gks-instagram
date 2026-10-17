@@ -1,0 +1,112 @@
+{
+  "week": "2026-10-18 — 2026-10-24",
+  "sources": "2027 GKS-U Application Guidelines (NIIED) — content/growth.md, «3. Qo'shimcha tasdiqlangan faktlar»; content/facts.md, «Tasdiqlangan»",
+  "note": "R08 va R13 — giveaway mavzulari o'rniga (growth.md: HOLATI: TASDIQLANMAGAN). 11–17-oktabrda intervyu mavzusi eng ko'p like va izoh olgani uchun ikkalasi ham intervyu mavzusida.",
+  "reels": [
+    {
+      "id": "R08",
+      "date": "2026-10-18",
+      "topic": "Intervyu: “O'zingiz haqingizda gapirib bering” savoliga javob rejasi",
+      "replaces": "R08 giveaway e'loni (tasdiqlanmagan)",
+      "theme": "paper",
+      "watermark": "면접",
+      "scenes": [
+        {"type": "hook", "kicker": "GKS intervyusi", "text": "“O'zingiz haqingizda gapirib bering” savoliga *tayyormisiz?*", "dur": 2.6},
+        {"type": "text", "kicker": "Ko'p uchraydigan xato", "title": "Yutuqlarni ketma-ket sanab chiqish", "body": "Baholaringiz arizada bor. Suhbatda esa siz kim ekaningiz muhim.", "dur": 3.0},
+        {"type": "list", "title": "Javob rejasi", "items": ["Hozir kimsiz va nima bilan shug'ullanasiz", "Sizni shu yo'nalishga olib kelgan voqea", "Koreyada nimani o'rganmoqchisiz"], "dur": 4.4},
+        {"type": "text", "kicker": "Maslahat", "title": "Qisqa va aniq gapiring", "body": "Javobni ovoz chiqarib mashq qiling, telefonga yozib oling va qayta tinglang.", "dur": 3.0},
+        {"type": "end", "title": "Saqlab qo'ying", "sub": "Intervyuga tayyorlanayotganda asqotadi", "dur": 2.8}
+      ],
+      "caption": "GKS grant intervyusida ko'p beriladigan savollardan biri — «O'zingiz haqingizda gapirib bering». Bu savolga javobni oldindan tuzib qo'ying.\n\nKo'p uchraydigan xato — baho va yutuqlarni ketma-ket sanab chiqish. Ular arizangizda bor, suhbatda esa siz kim ekaningiz muhim.\n\nJavob rejasi:\n1. Hozir kimsiz va nima bilan shug'ullanasiz.\n2. Sizni shu yo'nalishga olib kelgan voqea.\n3. Koreyada nimani o'rganmoqchisiz.\n\nQisqa va aniq gapiring. Javobni ovoz chiqarib mashq qiling, telefonga yozib oling va qayta tinglang.\n\n📌 Saqlab qo'ying va intervyuga tayyorlanayotgan do'stingizga yuboring. Obuna bo'ling — har kuni GKS bo'yicha qisqa video.\n\n#GKS #GKSU #GKSintervyu #KoreyadaOqish #GKSAcademics"
+    },
+    {
+      "id": "R09",
+      "date": "2026-10-19",
+      "topic": "Intervyu savollarining 3 turi va har biri nimani ko'rsatadi",
+      "theme": "navy",
+      "watermark": "질문",
+      "scenes": [
+        {"type": "hook", "kicker": "GKS intervyusi", "text": "Intervyu savollari *3 turga* bo'linadi", "sub": "Har biri siz haqingizda nimani ko'rsatadi?", "dur": 2.6},
+        {"type": "text", "kicker": "1 · Siz haqingizda", "title": "Kimsiz va nimaga qiziqasiz?", "body": "Fikringizni ravon va aniq ifodalay olishingiz ko'rinadi.", "dur": 3.0},
+        {"type": "text", "kicker": "2 · Tanlovingiz haqida", "title": "Nega Koreya, nega shu yo'nalish?", "body": "Maqsadingiz aniq va tanlovingiz asosli ekani ko'rinadi.", "dur": 3.0},
+        {"type": "text", "kicker": "3 · Arizangiz haqida", "title": "Insho va o'quv rejangiz bo'yicha", "body": "Og'zaki javoblaringiz arizangizdagi ma'lumotlarga mos kelsin.", "dur": 3.0},
+        {"type": "end", "dur": 2.8}
+      ],
+      "caption": "GKS grant intervyusidagi savollarni uch turga ajratish mumkin. Har bir tur siz haqingizda boshqa narsani ko'rsatadi.\n\n1. Siz haqingizda: kimsiz va nimaga qiziqasiz. Bu savollarda fikringizni ravon ifodalay olishingiz ko'rinadi.\n2. Tanlovingiz haqida: nega Koreya, nega shu universitet va yo'nalish. Maqsadingiz aniq, tanlovingiz esa asosli bo'lsin.\n3. Arizangiz haqida: Personal Statement va Study Plan'da yozgan fikrlaringiz. Og'zaki javoblaringiz yozganlaringizga mos kelsin.\n\nHar bir tur uchun javob rejasini tuzing va ovoz chiqarib mashq qiling.\n\nIntervyuga tayyorlanayotgan do'stingizga yuboring. Obuna bo'ling — har kuni GKS bo'yicha qisqa video.\n\n#GKS #GKSU #GKSintervyu #KoreyadaOqish #GKSAcademics"
+    },
+    {
+      "id": "R10",
+      "date": "2026-10-20",
+      "topic": "Personal Statement: 3 qoida",
+      "theme": "sky",
+      "watermark": "자기소개서",
+      "scenes": [
+        {"type": "hook", "kicker": "GKS-U · Insho", "text": "Personal Statement yozishdan oldin: *3 qoida*", "dur": 2.6},
+        {"type": "list", "title": "Yodda tuting", "items": ["Shakldagi har bir mavzuni yoriting", "Aytmang — misol bilan ko'rsating", "Inshoni Study Plan bilan moslashtiring"], "dur": 4.6},
+        {"type": "text", "kicker": "Misol", "title": "«Men mas'uliyatliman» deb yozmang", "body": "Shu fazilatingiz ko'ringan bitta vaziyatni yozing: nima qildingiz va natijasi qanday bo'ldi.", "dur": 3.6},
+        {"type": "end", "title": "Saqlab qo'ying", "sub": "Insho yozishni boshlaganingizda asqotadi", "dur": 2.8}
+      ],
+      "caption": "GKS-U 2027 arizasida Personal Statement (shaxsiy insho) baholar ko'rsatmaydigan narsani — siz kim ekaningizni ko'rsatadi. Yozishni boshlashdan oldin uchta qoidani yodda tuting.\n\n1. Rasmiy shakldagi har bir mavzuni yoriting. Ko'rsatmalarni diqqat bilan o'qing.\n2. Aytmang, misol bilan ko'rsating. «Men mas'uliyatliman» o'rniga shu fazilatingiz ko'ringan bitta vaziyatni yozing: nima qildingiz va natijasi qanday bo'ldi.\n3. Inshoni Study Plan (o'quv reja) bilan moslashtiring. Maqsadlaringiz ikkala hujjatda bir xil yozilsin.\n\nUniversitet yo'li arizalari noyabrgacha qabul qilinadi, shuning uchun inshoni oxirgi kunlarga qoldirmang.\n\n📌 Saqlab qo'ying va insho yozayotgan do'stingizga yuboring. Obuna bo'ling — har kuni GKS bo'yicha qisqa video.\n\n#GKS #GKSU #KoreyadaOqish #abituriyent #GKSAcademics"
+    },
+    {
+      "id": "R11",
+      "date": "2026-10-21",
+      "topic": "Universitet tanlashda o'zingizga beriladigan 3 savol",
+      "theme": "paper",
+      "watermark": "대학교",
+      "scenes": [
+        {"type": "hook", "kicker": "GKS-U · Universitet", "text": "Universitet tanlashdan oldin o'zingizga *3 savol* bering", "dur": 2.6},
+        {"type": "list", "kicker": "O'zingizdan so'rang", "items": ["Yo'nalishim shu universitetda bormi?", "Til va qo'shimcha talablariga mos kelamanmi?", "Ariza muddatiga ulguramanmi?"], "dur": 5.0},
+        {"type": "text", "kicker": "Universitet yo'li", "title": "Faqat bitta universitet tanlanadi", "body": "Bir nechtasini shu savollar bo'yicha solishtiring, keyin qaror qiling.", "dur": 3.4},
+        {"type": "end", "dur": 2.8}
+      ],
+      "caption": "Universitet yo'li orqali GKS grantiga topshirsangiz, faqat bitta universitet tanlanadi. Shuning uchun qaror qilishdan oldin o'zingizga uchta savol bering.\n\n1. Yo'nalishim shu universitetda bormi? Ro'yxatni rasmiy GKS-U yo'riqnomasidan tekshiring.\n2. Til va qo'shimcha talablariga mos kelamanmi? Talablar har universitetda har xil.\n3. Ariza muddatiga ulguramanmi? Universitet yo'li arizalari noyabrgacha qabul qilinadi, lekin har universitetning o'z muddati bor.\n\nBir necha universitetni shu savollar bo'yicha solishtiring, keyin qaror qiling.\n\nUniversitet tanlayotgan do'stingizga yuboring. Obuna bo'ling — har kuni GKS bo'yicha qisqa video.\n\n#GKS #GKSU #KoreyadaOqish #grant #GKSAcademics"
+    },
+    {
+      "id": "R12",
+      "date": "2026-10-22",
+      "topic": "Apostil nima va GKS uchun nega kerak",
+      "theme": "navy",
+      "watermark": "인증",
+      "scenes": [
+        {"type": "hook", "kicker": "GKS-U · Hujjatlar", "text": "Apostil nima va GKS uchun *nega kerak?*", "dur": 2.6},
+        {"type": "text", "kicker": "Apostil", "title": "Hujjatning rasmiy tasdig'i", "body": "U hujjatingiz xorijda tan olinishi uchun qo'yiladi.", "dur": 3.0},
+        {"type": "text", "kicker": "GKS uchun", "title": "Attestat (diplom) va baholar varaqasi", "body": "Apostil yoki konsullik tasdig'idan o'tgan bo'lishi kerak.", "dur": 3.2},
+        {"type": "text", "kicker": "Maslahat", "title": "Kechiktirmang", "body": "Bu jarayon vaqt oladi. Qayerda va qancha muddatda qo'yilishini oldindan aniqlang.", "dur": 3.0},
+        {"type": "end", "title": "Saqlab qo'ying", "sub": "Hujjat tayyorlashda asqotadi", "dur": 2.8}
+      ],
+      "caption": "GKS grantiga topshirish uchun attestat (yoki diplom) va baholar varaqasi apostil yoki konsullik tasdig'idan o'tgan bo'lishi kerak. Apostil nima va uni nega kechiktirmaslik kerak?\n\nApostil — hujjatning xorijda tan olinishi uchun qo'yiladigan rasmiy tasdiq.\n\nBu jarayon vaqt oladi. Hujjatlar ro'yxati tayyor bo'lishi bilan apostil qayerda va qancha muddatda qo'yilishini aniqlang.\n\nAsl hujjatlarni topshirishdan oldin ularning sifatli skanerlangan nusxasini tayyorlab, bitta papkada saqlang.\n\n📌 Saqlab qo'ying va hujjat tayyorlayotgan do'stingizga yuboring. Obuna bo'ling — har kuni GKS bo'yicha qisqa video.\n\n#GKS #GKSU #KoreyadaOqish #abituriyent #GKSAcademics"
+    },
+    {
+      "id": "R13",
+      "date": "2026-10-23",
+      "topic": "Intervyu: “Nega aynan Koreya?” savoliga kuchli javob",
+      "replaces": "R13 giveaway'ga 3 kun qoldi (tasdiqlanmagan)",
+      "theme": "sky",
+      "watermark": "한국",
+      "scenes": [
+        {"type": "hook", "kicker": "GKS intervyusi", "text": "“Nega aynan Koreya?” savoliga *kuchli javob*", "dur": 2.6},
+        {"type": "text", "kicker": "Zaif javob", "title": "Faqat seriallar va musiqa", "body": "Bu qiziqish, lekin o'qishni tanlash uchun yetarli asos emas.", "dur": 3.0},
+        {"type": "list", "title": "Kuchli javob", "items": ["Yo'nalishingiz bo'yicha Koreyaning kuchli tomoni", "Bu haqda o'zingiz o'rgangan aniq misol", "O'qishdan keyin bilimingizni qayerda qo'llaysiz"], "dur": 4.4},
+        {"type": "text", "kicker": "Tayyorgarlik", "title": "Koreyani chuqurroq o'rganing", "body": "Ta'lim tizimi, iqtisodi va O'zbekiston bilan aloqalari haqida o'qing.", "dur": 3.0},
+        {"type": "end", "dur": 2.8}
+      ],
+      "caption": "GKS grant intervyusida ko'p beriladigan savollardan biri — «Nega aynan Koreya?». Javobingiz qiziqishdan ko'ra aniq maqsadni ko'rsatsin.\n\nFaqat seriallar va musiqa bilan izohlash — zaif javob. Bu qiziqish, lekin o'qishni tanlash uchun yetarli asos emas.\n\nKuchli javob uch qismdan iborat:\n1. Yo'nalishingiz bo'yicha Koreyaning kuchli tomoni.\n2. Bu haqda o'zingiz o'rgangan aniq misol.\n3. O'qishdan keyin bilimingizni qayerda qo'llashingiz.\n\nTayyorgarlik uchun Koreyaning ta'lim tizimi, iqtisodi va O'zbekiston bilan aloqalari haqida o'qing.\n\nIntervyuga tayyorlanayotgan do'stingizga yuboring. Obuna bo'ling — har kuni GKS bo'yicha qisqa video.\n\n#GKS #GKSU #GKSintervyu #KoreyadaOqish #GKSAcademics"
+    },
+    {
+      "id": "R14",
+      "date": "2026-10-24",
+      "topic": "Elchixona yo'li va Universitet yo'li farqi",
+      "theme": "paper",
+      "watermark": "대사관",
+      "scenes": [
+        {"type": "hook", "kicker": "GKS-U 2027", "text": "Elchixona yo'li yoki Universitet yo'li: *farqi* nimada?", "dur": 2.6},
+        {"type": "number", "kicker": "Elchixona yo'li", "value": 156, "unit": "o‘rin", "label": "2027 yil uchun, 74 davlat", "note": "Ariza Koreya elchixonasiga topshiriladi.", "dur": 3.4},
+        {"type": "text", "kicker": "Universitet yo'li", "title": "Ariza universitetga topshiriladi", "body": "Noyabrgacha qabul qilinadi. Faqat bitta universitet tanlanadi.", "dur": 3.2},
+        {"type": "text", "kicker": "Ikkala yo'lda ham", "title": "Grant imkoniyatlari bir xil", "body": "O'qish to'lovi, 1 yillik koreys tili kursi va aviachipta qoplanadi.", "dur": 3.0},
+        {"type": "end", "title": "Saqlab qo'ying", "sub": "Har kuni GKS bo'yicha qisqa video — obuna bo'ling", "dur": 2.8}
+      ],
+      "caption": "Koreyada bepul o'qish uchun GKS-U 2027 grantiga ikki yo'l orqali topshiriladi: Elchixona yo'li va Universitet yo'li. Farqi nimada?\n\nElchixona yo'li — ariza Koreya elchixonasiga topshiriladi. 2027 yil uchun 74 davlatga 156 o'rin ajratilgan. Tanlov elchixona, NIIED va universitetlar bosqichlaridan o'tadi.\n\nUniversitet yo'li — ariza to'g'ridan-to'g'ri universitetga topshiriladi. Arizalar noyabrgacha qabul qilinadi, har universitetning o'z muddati bor va faqat bitta universitet tanlanadi. Elchixona yo'lidan o'tmaganlar ham topshira oladi.\n\nIkkala yo'lda ham grant o'qish to'lovi, 1 yillik koreys tili kursi va aviachiptani qoplaydi.\n\n📌 Saqlab qo'ying va GKS'ga tayyorlanayotgan do'stingizga yuboring. Obuna bo'ling — har kuni GKS bo'yicha qisqa video.\n\n#GKS #GKSU #GlobalKoreaScholarship #KoreyadaOqish #GKSAcademics"
+    }
+  ]
+}
