@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-03",
+  "topic": "Hujjatlar ro‘yxati: saqlab qo‘yiladigan checklist",
+  "pillar": "hujjatlar",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "GKS-U · Hujjatlar ro‘yxati",
+      "title": "GKS arizasiga qaysi *hujjatlar* kerak?",
+      "subtitle": "Arizaga kerak bo‘ladigan asosiy hujjatlar bitta ro‘yxatda. Postni saqlab qo‘ying va tayyor bo‘lganlarini belgilab boring."
+    },
+    {
+      "type": "list",
+      "title": "Yo‘riqnomadagi rasmiy shakllar",
+      "items": [
+        "Ariza shakli (Application Form)",
+        "Shaxsiy insho (Personal Statement)",
+        "O‘quv reja (Study Plan)",
+        "Tavsiyanoma (Recommendation Letter)",
+        "Nomzod kelishuvi (GKS Applicant Agreement)",
+        "Tibbiy holat shakli va shaxsiy ma’lumotlardan foydalanishga rozilik"
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Apostil qo‘yiladigan hujjatlar",
+      "items": [
+        "Attestat yoki diplom",
+        "Hali o‘qiyotgan bo‘lsangiz — bitirishingiz kutilayotgani haqida ma’lumotnoma",
+        "Baholar varaqasi",
+        "Siz va ota-onangizning fuqaroligi hamda qarindoshligingizni tasdiqlovchi hujjatlar",
+        "Xorijdagi koreys ekaningizni tasdiqlovchi hujjatlar (tegishli bo‘lsa)"
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Qo‘shimcha hujjatlar",
+      "items": [
+        "TOPIK yoki ingliz tili sertifikati — agar bo‘lsa",
+        "Mukofot va yutuqlarni tasdiqlovchi hujjatlar (ixtiyoriy)",
+        "Pasport nusxasi (ixtiyoriy)"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Yakuniy ro‘yxat — rasmiy yo‘riqnomada",
+      "body": "Hujjatlar ro‘yxati o‘sha yilgi rasmiy GKS-U yo‘riqnomasida beriladi va yildan yilga o‘zgarishi mumkin. Universitet yo‘lida universitetingiz qo‘shimcha hujjat so‘rashi mumkin. Hujjatingiz koreys yoki ingliz tilida bo‘lmasa, tarjima talablarini ham oldindan aniqlang."
+    },
+    {
+      "type": "cta",
+      "title": "*Obuna* bo‘ling",
+      "body": "Har kuni GKS bo‘yicha foydali post va video.",
+      "button": "@gks_academics"
+    }
+  ],
+  "caption": "GKS grant arizasi uchun qaysi hujjatlar kerak? Asosiy hujjatlarni slaydlarda bitta ro‘yxatga jamladik, bu yerda esa ularni yig‘ishni yengillashtiradigan uchta maslahat.\n\n1. Tavsiyanomani erta so‘rang. Sizni yaxshi biladigan ustozingizga yozish uchun yetarli vaqt bering va maqsadingiz hamda yutuqlaringiz haqida qisqa ma’lumot tayyorlab bering.\n\n2. Attestat, baholar varaqasi va kerakli ma’lumotnomalarni o‘quv muassasangizdan bir vaqtda so‘rang. Apostil qo‘ydirish vaqt oladi, shuning uchun bu ishni kechiktirmang.\n\n3. TOPIK sertifikati majburiy emas, lekin baholashda qo‘shimcha ball beradi. TOPIK 5 yoki 6-darajasi borlar esa til kursidan ozod bo‘ladi.\n\nPostni saqlab qo‘ying va hujjat tayyorlayotgan do‘stingizga yuboring. Obuna bo‘ling — har kuni GKS bo‘yicha foydali kontent.\n\n📌 Telegram: t.me/gks_academic\n🌐 Sayt: gks-academics.gks-academics.workers.dev\n\n#GKS #GKSU #KoreyadaOqish #stipendiya #abituriyent"
+}
