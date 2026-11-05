@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-05",
+  "topic": "GKS Academics: bepul konsultatsiya va tayyorlov kursi",
+  "pillar": "gks-academics",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "GKS Academics · Konsultatsiya va kurs",
+      "title": "GKS’ga tayyorgarlikni nimadan *boshlash* kerak?",
+      "subtitle": "Bepul konsultatsiya va tayyorlov kursimiz haqida qisqacha: nimalarda yordam beramiz va qanday yozilish mumkin."
+    },
+    {
+      "type": "list",
+      "title": "Bepul konsultatsiyada nima so‘rash mumkin?",
+      "items": [
+        "GKS-U shartlariga mos kelasizmi?",
+        "Elchixona yoki Universitet yo‘li: qaysi biri sizga mos?",
+        "Hujjatlar qaysi tartibda tayyorlanadi?",
+        "Insho va o‘quv rejada nimalarga e’tibor berish kerak?",
+        "Universitetni qanday tanlash kerak?"
+      ]
+    },
+    {
+      "type": "list",
+      "title": "Tayyorlov kursi nimalarni o‘z ichiga oladi?",
+      "items": [
+        "Hujjatlarni to‘liq tayyorlash",
+        "Insho va o‘quv rejangiz bo‘yicha jonli fikr-mulohaza",
+        "Sinov intervyulari (mock interview)",
+        "Universitet tanlashda yordam"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Saytimizdagi bepul vositalar",
+      "body": "G-Mentor AI GKS bo‘yicha savollaringizga o‘zbek tilida, rasmiy yo‘riqnomaga tayanib javob beradi. K-Talk yordamida koreyscha gapirishni mashq qilasiz. Saytda bepul darsliklar ham bor."
+    },
+    {
+      "type": "point",
+      "title": "Qanday yozilish mumkin?",
+      "body": "Bepul konsultatsiya uchun bizga Instagram’da shaxsiy xabar yuborib, “GKS” deb yozing yoki saytimizda Telegram’dagi foydalanuvchi nomingizni qoldiring. Yoshingiz, o‘rtacha bahongiz va qiziqqan yo‘nalishingizni ham yozsangiz, maslahat aniqroq bo‘ladi."
+    },
+    {
+      "type": "cta",
+      "title": "GKS’ga tayyorlanayotgan *do‘stingiz* bormi?",
+      "body": "Bepul konsultatsiya va saytdagi vositalar unga ham asqotadi. Postni yuboring va o‘zingiz uchun ham saqlab qo‘ying.",
+      "button": "Do‘stingizga yuboring"
+    }
+  ],
+  "caption": "GKS grant uchun tayyorgarlikni nimadan boshlash kerak? Bepul konsultatsiya va tayyorlov kursimiz haqida asosiy ma’lumotni slaydlarda jamladik, bu yerda esa yana uchta eslatma.\n\n1. Elchixona yo‘li jadvaliga ko‘ra noyabrda 2-bosqich (NIIED), 23-dekabrgacha esa 3-bosqich — universitetlar bosqichi o‘tadi (Koreya vaqti bilan). Keyingi bosqichga tayyorlanayotgan bo‘lsangiz, savollaringizni kechiktirmang.\n\n2. Keyingi yilgi tanlovga topshirmoqchi bo‘lsangiz, tayyorgarlikni hozirdan boshlang. Hujjatlar, til sertifikati va insho uchun vaqtingiz qancha ko‘p bo‘lsa, shuncha yaxshi.\n\n3. Biz grant va’da qilmaymiz: tanlovni NIIED boshqaradi. Bizning vazifamiz — arizani puxta tayyorlash va intervyuga tayyorlanishda sizga yordam berish.\n\nBepul konsultatsiya uchun bizga shaxsiy xabarda “GKS” deb yozing. Postni GKS’ga tayyorlanayotgan do‘stingizga yuboring. Obuna bo‘ling — har kuni GKS bo‘yicha foydali kontent.\n\n📌 Telegram: t.me/gks_academic\n🌐 Sayt: gks-academics.gks-academics.workers.dev\n📞 Tel: 010-3068-2229\n\n#GKS #GKSU #KoreyadaOqish #grant #GKSAcademics"
+}
