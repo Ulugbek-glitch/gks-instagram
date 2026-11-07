@@ -1,0 +1,111 @@
+{
+  "week": "2026-11-08 — 2026-11-14",
+  "sources": "2027 GKS-U Application Guidelines (NIIED) — content/growth.md, «3. Qo'shimcha tasdiqlangan faktlar»; content/facts.md, «Tasdiqlangan» (rasmiy sayt: studyinkorea.go.kr)",
+  "note": "growth.md 4-bo'limidagi navbat R28 da tugagan (R15–R21 va R22–R28 partiyalari 2026-10-24 va 2026-10-31 da yasalgan, Zapier limiti sabab repoga yozilmagan), shuning uchun id R29 dan davom etadi. 1–7-noyabrda asoslar mavzusidagi Reels (stipendiya) eng ko'p like oldi, intervyu Reels'lari esa avvaldan eng ko'p izoh olgan — shu ikki tur ko'paytirildi. «Universitet yo'li noyabrgacha» ifodasi noyabrda chalkash bo'lgani uchun ishlatilmadi. Giveaway: TASDIQLANMAGAN — giveaway mavzusi yo'q.",
+  "reels": [
+    {
+      "id": "R29",
+      "date": "2026-11-08",
+      "topic": "Ota-onalar uchun: «Bu rostmi?» — GKS haqida 3 fakt (rasmiy dastur, stipendiya, kafolat yo'q)",
+      "theme": "navy",
+      "watermark": "부모님",
+      "scenes": [
+        {"type": "hook", "kicker": "Ota-onalar uchun", "text": "Ota-onangiz GKS haqida *“Bu rostmi?”* deb so'raydimi?", "sub": "Ularga shu 3 faktni ko'rsating", "dur": 2.6},
+        {"type": "text", "kicker": "Rasmiy dastur", "title": "Koreya hukumati stipendiyasi", "body": "NIIED tomonidan boshqariladi. Rasmiy sayt: studyinkorea.go.kr", "dur": 3.2},
+        {"type": "number", "kicker": "Bakalavr davrida", "value": 1200000, "unit": "₩", "label": "har oy stipendiya", "note": "O'qish to'lovi, 1 yillik til kursi va aviachipta ham grant hisobidan.", "dur": 3.6},
+        {"type": "text", "kicker": "Muhim", "title": "Grantni hech kim kafolatlay olmaydi", "body": "G'oliblarni tanlov aniqlaydi. Ma'lumotni rasmiy manbadan tekshiring.", "dur": 3.2},
+        {"type": "end", "title": "Saqlab qo'ying", "sub": "Ota-onangizga ham ko'rsating", "dur": 2.8}
+      ],
+      "caption": "Ota-onangiz GKS granti haqida «Bu rostmi?» deb so'raydimi? Koreyada bepul o'qish imkoniyatini ularga shu uchta fakt bilan tushuntiring.\n\n1. GKS (Global Korea Scholarship) — Koreya hukumati stipendiyasi, uni NIIED boshqaradi. Rasmiy ma'lumot: studyinkorea.go.kr.\n2. 2027 GKS-U yo'riqnomasiga ko'ra, grant o'qish to'lovi, 1 yillik koreys tili kursi va aviachiptani qoplaydi. Oylik stipendiya bakalavr davrida 1 200 000 von, til kursi yilida 1 130 000 von.\n3. Grantni hech kim oldindan kafolatlay olmaydi: g'oliblarni tanlov aniqlaydi. Har qanday ma'lumotni rasmiy manbadan tekshiring.\n\n📌 Saqlab qo'ying va ota-onangizga ko'rsating. Obuna bo'ling — har kuni GKS bo'yicha qisqa video.\n\n#GKS #GKSU #KoreyadaOqish #stipendiya #GKSAcademics"
+    },
+    {
+      "id": "R30",
+      "date": "2026-11-09",
+      "topic": "Koreys tilini noldan boshlash: 4 qadam va TOPIK'ning GKS'dagi o'rni",
+      "theme": "sky",
+      "watermark": "한글",
+      "scenes": [
+        {"type": "hook", "kicker": "GKS · Koreys tili", "text": "Koreys tilini *noldan* boshlayapsizmi?", "sub": "Birinchi qadamlar shu tartibda", "dur": 2.6},
+        {"type": "list", "title": "Qayerdan boshlash kerak?", "items": ["Hangul alifbosini o'rganing", "Har kuni oz-ozdan shug'ullaning", "Eshiting va ovoz chiqarib takrorlang", "Gapirishni erta boshlang"], "dur": 5.0},
+        {"type": "text", "kicker": "GKS uchun", "title": "TOPIK majburiy emas", "body": "Lekin baholashda qo'shimcha ball beradi. O'rganishni bugundan boshlang.", "dur": 3.0},
+        {"type": "end", "title": "Saqlab qo'ying", "sub": "Har kuni GKS bo'yicha qisqa video — obuna bo'ling", "dur": 2.8}
+      ],
+      "caption": "GKS grantiga tayyorlanayotgan bo'lsangiz, koreys tilini noldan o'rganishni qayerdan boshlash kerak? Birinchi qadamlarni shu tartibda tashlang.\n\n1. Hangul alifbosini o'rganing. Harflarni o'qiy olmasangiz, keyingi qadamlar qiyinlashadi.\n2. Har kuni oz-ozdan shug'ullaning. Qisqa bo'lsa ham, har kungi mashg'ulot odatga aylansin.\n3. Eshiting va ovoz chiqarib takrorlang: so'z va iboralarni talaffuzi bilan birga o'rganing.\n4. Gapirishni erta boshlang. Saytimizdagi bepul K-Talk vositasida koreyscha gapirishni mashq qilishingiz mumkin.\n\nGKS uchun TOPIK sertifikati majburiy emas, lekin baholashda qo'shimcha ball beradi.\n\n📌 Saqlab qo'ying va koreys tilini o'rganayotgan do'stingizga yuboring. Obuna bo'ling — har kuni GKS bo'yicha qisqa video.\n\n#GKS #KoreyadaOqish #koreystili #TOPIK #GKSAcademics"
+    },
+    {
+      "id": "R31",
+      "date": "2026-11-10",
+      "topic": "Intervyu: «Kuchli va zaif tomonlaringiz qanday?» savoliga javob",
+      "theme": "paper",
+      "watermark": "강점",
+      "scenes": [
+        {"type": "hook", "kicker": "GKS intervyusi", "text": "“Kuchli va zaif tomonlaringiz qanday?” savoliga *tayyormisiz?*", "dur": 2.6},
+        {"type": "text", "kicker": "Kuchli tomon", "title": "Bitta sifat va bitta misol", "body": "Sifatni ayting va u ko'ringan aniq vaziyatni qisqa gapirib bering.", "dur": 3.0},
+        {"type": "text", "kicker": "Zaif tomon", "title": "Haqiqiy, lekin ustida ishlayotgan tomon", "body": "Uni yengish uchun hozir nima qilayotganingizni ayting.", "dur": 3.2},
+        {"type": "text", "kicker": "Qoching", "title": "“Zaif tomonim yo'q”", "body": "Bunday javob o'zingizni xolis baholay olmasligingizdek ko'rinishi mumkin.", "dur": 3.0},
+        {"type": "end", "title": "Saqlab qo'ying", "sub": "Intervyuga tayyorlanayotganda asqotadi", "dur": 2.8}
+      ],
+      "caption": "GKS grant intervyusida berilishi mumkin bo'lgan savollardan biri — «Kuchli va zaif tomonlaringiz qanday?». Bu savolga javobni oldindan tayyorlab qo'ying.\n\nKuchli tomon: bitta sifatni ayting va u ko'ringan aniq vaziyatni qisqa gapirib bering. Masalan, «tashkilotchiman» deyish o'rniga o'zingiz tashkil qilgan ishni va uning natijasini ayting.\n\nZaif tomon: haqiqiy, lekin ustida ishlayotgan tomoningizni tanlang va uni yengish uchun hozir nima qilayotganingizni tushuntiring.\n\n«Zaif tomonim yo'q» degan javobdan qoching: u o'zingizni xolis baholay olmasligingizdek ko'rinishi mumkin.\n\nJavobni ovoz chiqarib mashq qiling, telefonga yozib oling va qayta tinglang.\n\n📌 Saqlab qo'ying va intervyuga tayyorlanayotgan do'stingizga yuboring. Obuna bo'ling — har kuni GKS bo'yicha qisqa video.\n\n#GKS #GKSU #GKSintervyu #KoreyadaOqish #GKSAcademics"
+    },
+    {
+      "id": "R32",
+      "date": "2026-11-11",
+      "topic": "Keyingi tanlovga hozirdan tayyorgarlik: 4 ish va 2027 baho talabi",
+      "theme": "navy",
+      "watermark": "준비",
+      "scenes": [
+        {"type": "hook", "kicker": "GKS · Keyingi tanlov", "text": "Keyingi yil topshirasizmi? *Hozirdan* boshlang", "dur": 2.6},
+        {"type": "list", "title": "Hozirdan nima qilish mumkin?", "items": ["Baholaringizni yaxshilang", "Koreys tilini o'rganishni boshlang", "Hujjatlar ro'yxatini tuzing", "Insho uchun voqealarni yozib boring"], "dur": 5.0},
+        {"type": "text", "kicker": "2027 tanlovi talabi", "title": "Baho: kamida 80/100", "body": "Yoki 5 ballikda 3,23, yoki sinfda eng yaxshi 20% ichida.", "dur": 3.0},
+        {"type": "text", "kicker": "Eslatma", "title": "Yangi yo'riqnomani kuzating", "body": "Shartlar yildan yilga o'zgarishi mumkin.", "dur": 2.8},
+        {"type": "end", "title": "Saqlab qo'ying", "sub": "Har kuni GKS bo'yicha qisqa video — obuna bo'ling", "dur": 2.6}
+      ],
+      "caption": "GKS grantiga keyingi yil topshirmoqchimisiz? Koreyada bepul o'qishga tayyorgarlikni hozirdan boshlang — vaqt qancha ko'p bo'lsa, ariza shuncha puxta chiqadi.\n\n1. Baholaringizni yaxshilang. 2027 tanlovida talab — kamida 80/100 (5 ballikda 3,23) yoki sinfda eng yaxshi 20% ichida bo'lish.\n2. Koreys tilini o'rganishni boshlang. TOPIK sertifikati majburiy emas, lekin baholashda qo'shimcha ball beradi.\n3. Hujjatlar ro'yxatini tuzing. Attestat va baholar varaqasi apostil yoki konsullik tasdig'idan o'tgan bo'lishi kerak, bu esa vaqt oladi.\n4. Insho uchun hayotingizdagi muhim voqealar, yutuq va qiyinchiliklarni yozib boring.\n\nShartlar yildan yilga o'zgarishi mumkin, shuning uchun yangi yo'riqnomani rasmiy saytda kuzatib boring: studyinkorea.go.kr.\n\n📌 Saqlab qo'ying va keyingi yil topshirmoqchi bo'lgan do'stingizga yuboring. Obuna bo'ling — har kuni GKS bo'yicha qisqa video.\n\n#GKS #GKSU #KoreyadaOqish #abituriyent #GKSAcademics"
+    },
+    {
+      "id": "R33",
+      "date": "2026-11-12",
+      "topic": "Intervyu: tajriba haqidagi savollarga javob rejasi — vaziyat, harakat, natija",
+      "theme": "sky",
+      "watermark": "답변",
+      "scenes": [
+        {"type": "hook", "kicker": "GKS intervyusi", "text": "Intervyuda javobingiz *chalkashib* ketadimi?", "sub": "3 qismli oddiy reja yordam beradi", "dur": 2.6},
+        {"type": "steps", "title": "Javob rejasi", "items": [["Vaziyat", "Qayerda va qachon bo'lgan?"], ["Harakat", "Siz aynan nima qildingiz?"], ["Natija", "Nima o'zgardi, nimani o'rgandingiz?"]], "dur": 4.6},
+        {"type": "text", "kicker": "Qachon asqotadi", "title": "Tajribangiz haqidagi savollarda", "body": "“Qiyinchilikni qanday yengdingiz?”, “Jamoada ishlaganmisiz?”", "dur": 3.0},
+        {"type": "text", "kicker": "Maslahat", "title": "Asosiy qism — harakat", "body": "Jamoa emas, aynan siz nima qilganingizni ayting.", "dur": 2.8},
+        {"type": "end", "dur": 2.8}
+      ],
+      "caption": "GKS grant intervyusida tajribangiz haqidagi savollarga javob berishda oddiy reja yordam beradi: vaziyat, harakat, natija.\n\n1. Vaziyat — voqea qayerda va qachon bo'lgan. Buni qisqa ayting.\n2. Harakat — siz aynan nima qildingiz. Javobning asosiy qismi shu bo'lsin: jamoa emas, sizning hissangiz muhim.\n3. Natija — nima o'zgardi va siz nimani o'rgandingiz.\n\nBu reja «Qiyinchilikni qanday yengdingiz?» yoki «Jamoada ishlaganmisiz?» kabi savollarda ayniqsa asqotadi. Hayotingizdan bir nechta voqeani oldindan tanlang va har birini shu tartibda ovoz chiqarib mashq qiling.\n\nIntervyuga tayyorlanayotgan do'stingizga yuboring. Obuna bo'ling — har kuni GKS bo'yicha qisqa video.\n\n#GKS #GKSU #GKSintervyu #KoreyadaOqish #GKSAcademics"
+    },
+    {
+      "id": "R34",
+      "date": "2026-11-13",
+      "topic": "Insho: Personal Statement'ning birinchi gapi qanday bo'lsin",
+      "theme": "paper",
+      "watermark": "첫 문장",
+      "scenes": [
+        {"type": "hook", "kicker": "GKS-U · Insho", "text": "Inshoning *birinchi gapi* qanday bo'lsin?", "sub": "Personal Statement uchun", "dur": 2.6},
+        {"type": "text", "kicker": "Zaif boshlanish", "title": "“Mening ismim ...” yoki mashhur iqtibos", "body": "Ismingiz arizada bor, iqtibos esa siz haqingizda gapirmaydi.", "dur": 3.2},
+        {"type": "text", "kicker": "Kuchli boshlanish", "title": "Aniq bir lahza", "body": "Yo'nalishingizga qiziqishingiz uyg'ongan voqeadan boshlang.", "dur": 3.0},
+        {"type": "text", "kicker": "Keyingi gaplar", "title": "Voqeani maqsadingizga bog'lang", "body": "Bu tajriba sizni Koreyada nimani o'rganishga undayotganini yozing.", "dur": 3.0},
+        {"type": "end", "title": "Saqlab qo'ying", "sub": "Inshoni yozishdan oldin qayta ko'ring", "dur": 2.8}
+      ],
+      "caption": "GKS grant arizasidagi Personal Statement (shaxsiy insho) qanday boshlanishi kerak? Birinchi gaplar butun inshoga ohang beradi.\n\nZaif boshlanish — «Mening ismim ...» yoki mashhur iqtibos. Ismingiz arizada bor, iqtibos esa siz haqingizda hech narsa aytmaydi.\n\nKuchli boshlanish — aniq bir lahza: yo'nalishingizga qiziqishingiz uyg'ongan voqea.\n\nKeyingi gaplarda shu voqeani maqsadingizga bog'lang: bu tajriba sizni Koreyada nimani o'rganishga undayapti?\n\nRasmiy shakldagi har bir mavzuni yoritishni ham unutmang.\n\n📌 Saqlab qo'ying va insho yozayotgan do'stingizga yuboring. Obuna bo'ling — har kuni GKS bo'yicha qisqa video.\n\n#GKS #GKSU #KoreyadaOqish #abituriyent #GKSAcademics"
+    },
+    {
+      "id": "R35",
+      "date": "2026-11-14",
+      "topic": "Intervyu: «Koreyada qanday moslashasiz?» savoliga javob",
+      "theme": "navy",
+      "watermark": "적응",
+      "scenes": [
+        {"type": "hook", "kicker": "GKS intervyusi", "text": "“Koreyada qanday *moslashasiz?*”", "sub": "Bu savolga tayyor javobingiz bormi?", "dur": 2.6},
+        {"type": "text", "kicker": "Zaif javob", "title": "“Muammo bo'lmaydi”", "body": "Qiyinchiliklarni o'ylab ko'rmaganingizdek ko'rinishi mumkin.", "dur": 3.0},
+        {"type": "list", "title": "Kuchli javob", "items": ["Qiyinchilikni tan oling", "Rejangizni ayting", "O'z tajribangizdan misol keltiring"], "dur": 4.4},
+        {"type": "text", "kicker": "Foydali fakt", "title": "Birinchi yil — koreys tili kursi", "body": "Grant uni qoplaydi. Javobingizda shu yilga rejangizni ham ayting.", "dur": 3.0},
+        {"type": "end", "dur": 2.8}
+      ],
+      "caption": "GKS grant intervyusida «Koreyada qanday moslashasiz?» kabi savol berilishi mumkin. Unga «Muammo bo'lmaydi» deb javob berish zaif chiqadi: bu qiyinchiliklarni o'ylab ko'rmaganingizdek ko'rinishi mumkin.\n\nKuchli javob uch qismdan iborat:\n1. Qiyinchilikni tan oling: yangi til, yangi muhit, oiladan uzoqda yashash.\n2. Rejangizni ayting: masalan, koreys tilini hozirdan o'rganayotganingiz.\n3. O'z tajribangizdan misol keltiring: yangi muhitga qachon va qanday moslashgansiz.\n\nFoydali fakt: grantning birinchi yili — koreys tili kursi, uning to'lovi ham qoplanadi. Javobingizda shu yilga rejangizni ham aytishingiz mumkin.\n\nIntervyuga tayyorlanayotgan do'stingizga yuboring. Obuna bo'ling — har kuni GKS bo'yicha qisqa video.\n\n#GKS #GKSU #GKSintervyu #KoreyadaOqish #GKSAcademics"
+    }
+  ]
+}
