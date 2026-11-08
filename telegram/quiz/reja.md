@@ -46,7 +46,7 @@ Post raqami NN = (SANA − 2026-11-08) kun + 1, ikki xonali. Badge: "Quiz · NN"
 | 2026-11-16 | Du | Fikringiz? | «GKS 2027 jarayonida qaysi bosqichdasiz?» — Elchixona yo‘li / Universitet yo‘li / 2028-yilga tayyorlanyapman / Hali qaror qilmadim | so‘rovnoma |
 | 2026-11-17 | Se | Bilasizmi? | 19-noyabr — 수능: ingliz tili tinglash qismida samolyotlar uchishi to‘xtatiladi va boshqa choralar (2026 vaqtlarini tekshiring) | quiz |
 | 2026-11-18 | Cho | Kunning iborasi | 화이팅! — inglizcha «fighting»dan olingan konglish, «omad, uddalaysiz»; 힘내세요 | quiz |
-| 2026-11-19 | Pa | Bilasizmi? (수능 kuni) | Imtihon oldidan 미역국 yeyilmaydi (미끄러지다 — «sirpanmoq», «imtihondan yiqilmoq»); 엿 va 찹쌀땡 sovg‘a qilinadi (붙다 — «yopishmoq», «o‘tmoq») | quiz |
+| 2026-11-19 | Pa | Bilasizmi? (수능 kuni) | Imtihon oldidan 미역국 yeyilmaydi (미끄러지다 — «sirpanmoq», «imtihondan yiqilmoq»); 엿 va 찹쌀떡 sovg‘a qilinadi (붙다 — «yopishmoq», «o‘tmoq») | quiz |
 | 2026-11-20 | Ju | GKS savol | TOPIK 5 yoki 6-darajasi borlar 1 yillik til kursidan ozod bo‘ladi | quiz |
 | 2026-11-21 | Sha | Fikringiz? | «Koreyaning qaysi shahrida o‘qishni xohlaysiz?» — Seul / Pusan / Tegu / Tejon / Boshqa | so‘rovnoma |
 | 2026-11-22 | Ya | Kunning iborasi | 눈치 (nunchi) — «vaziyatni sezish» | quiz |
@@ -59,7 +59,7 @@ Post raqami NN = (SANA − 2026-11-08) kun + 1, ikki xonali. Badge: "Quiz · NN"
 | 2026-11-29 | Ya | Kunning iborasi | 저기요 / 여기요 — kafeda xodimni chaqirish | quiz |
 | 2026-11-30 | Du | Fikringiz? | «Qaysi rukn sizga ko‘proq yoqdi?» — Kunning iborasi / Bilasizmi? / GKS savol / Fikringiz? | so‘rovnoma |
 | 2026-12-01 | Se | Bilasizmi? | 빨리빨리 — tezlik madaniyati (yetkazib berish, xizmatlar) | quiz |
-| 2026-12-02 | Cho | Kunning iborasi | 처음 빙겠습니다 — birinchi tanishuvda, intervyu boshida | quiz |
+| 2026-12-02 | Cho | Kunning iborasi | 처음 뵙겠습니다 — birinchi tanishuvda, intervyu boshida | quiz |
 | 2026-12-03 | Pa | GKS savol | Grant qamrovi: o‘qish to‘lovi, 1 yillik koreys tili kursi, aviachipta | quiz |
 | 2026-12-04 | Ju | Bilasizmi? | Kattalarga narsani ikki qo‘llab berish va olish | quiz |
 | 2026-12-05 | Sha | Fikringiz? | «Koreys tilini qanday o‘rganyapsiz?» — Ilova / Kurs / YouTube / Kitob bilan mustaqil / Hali boshlamadim | so‘rovnoma |
