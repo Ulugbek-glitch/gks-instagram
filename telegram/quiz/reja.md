@@ -5,7 +5,7 @@ Boshlangan: 2026-11-08. Kunlik postni Claude'ning rejali vazifasi tayyorlaydi, U
 Rasmlar: telegram/quiz/tg_card.py. Bu papkadagi fayllar Telegram'ga avtomatik yuborilmaydi.
 
 ## 1. Nega va qanday
-- Holat (8-noyabr): kanalga faqat Instagram karusellari (albom, oxiri Instagram havolasi) tushgan; 19-oktabrdan 3-noyabrgacha 15 kun post bo‘lmagan; quiz va so‘rovnoma bo‘lmagan.
+- Holat (8-noyabr): avtomatik kontent — Instagram karusellari (albom, oxiri Instagram havolasi bilan); 19-oktabrdan 3-noyabrgacha avtomatik postlar to‘xtab qolgan (Zapier limiti); bu kontentda quiz va so‘rovnoma yo‘q.
 - Usullar: har kuni bitta interaktiv post (quiz yoki so‘rovnoma); doimiy ruknlar va vaqt; javob ertasi kuni (ochiq halqa); kun mavzusiga bog‘lash; natijani keyingi postda aytish; «Do‘stingizga yuboring» chaqirig‘i; izoh va reaksiyalar; oyiga bir jonli efir.
 
 ## 2. Jadval (Toshkent vaqti; Koreya = +4 soat)
