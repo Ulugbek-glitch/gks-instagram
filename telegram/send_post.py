@@ -20,6 +20,10 @@ Videolar (Reels): telegram/videos/SANA.json — {"video": "reels/fayl.mp4", "tex
 Instagram havolasi qo'shilmaydi). Muqova: ffmpeg bo'lsa, cover_at soniyadagi kadr.
 Video fayli hali repoda bo'lmasa, o'tkazib yuboriladi va keyingi ishga tushishda yuboriladi.
 Holat kaliti: "video:SANA".
+
+Kunlik quiz: har ishga tushishda telegram/quiz/send_quiz.py ham chaqiriladi — u bugungi quizni
+(telegram/quiz/quizzes.json) 20:00 (Toshkent) dan keyin bir marta yuboradi, holati shu sent.json da
+("quiz:SANA"). Quiz xatosi crosspostga ta'sir qilmaydi.
 """
 import datetime as dt
 import json
@@ -335,6 +339,18 @@ def send_videos(token, chat, state, forced):
     return 0
 
 
+def run_quiz():
+    """Kunlik quiz (telegram/quiz/send_quiz.py). Xatosi crosspostga ta'sir qilmaydi."""
+    script = ROOT / "telegram" / "quiz" / "send_quiz.py"
+    if not script.exists():
+        return
+    try:
+        subprocess.run([sys.executable, str(script)], env={**os.environ, "QUIZ_STATE": str(STATE)},
+                       timeout=180, check=False)
+    except (subprocess.SubprocessError, OSError) as e:
+        log(f"::warning::Quiz ishga tushmadi: {e}")
+
+
 def main():
     token = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
     chat = os.environ.get("TELEGRAM_CHAT_ID", "").strip() or "@gks_academic"
@@ -346,6 +362,7 @@ def main():
         summary("⚠️ TELEGRAM_BOT_TOKEN secret qo'shilmagan.")
         return 0
 
+    run_quiz()  # state undan keyin o'qiladi, quiz holati saqlanib qoladi
     brand = json.loads((ROOT / "brand.json").read_text(encoding="utf-8"))
     state = load_state()
     todo = candidates(state, forced)
