@@ -1,0 +1,86 @@
+{
+  "2026-11-09": {
+    "question": "🇰🇷 Ishlayotgan odamga o‘zbeklar «Charchamang!» deydi. Koreyslar bunday paytda nima deydi?",
+    "options": ["안녕하세요 (annyeonghaseyo)", "수고하세요 (sugohaseyo)", "조심하세요 (josimhaseyo)", "식사하세요 (siksahaseyo)"],
+    "correct": 1,
+    "explanation": "수고하세요 — «ishingizga omad, charchamang». Ish tugagach: 수고하셨습니다 yoki 고생 많으셨습니다. Kattalarga, masalan intervyu oxirida, 감사합니다 deyish xavfsiz."
+  },
+  "2026-11-10": {
+    "question": "🇰🇷 Koreyada 11-noyabr qanday kun sifatida mashhur?",
+    "options": ["Pepero kuni — shokoladli tayoqchalar sovg‘a qilinadi", "Hangul kuni — koreys alifbosi bayrami", "Bolalar kuni", "Chuseok — hosil bayrami"],
+    "correct": 0,
+    "explanation": "11.11 to‘rtta ingichka Pepero tayoqchasiga o‘xshaydi, shu kuni yaqinlarga Pepero sovg‘a qilinadi. Hangul kuni — 9-oktabr, Bolalar kuni — 5-may."
+  },
+  "2026-11-11": {
+    "question": "🇰🇷 O‘zbekcha «Osh bo‘lsin!»ga eng yaqin koreyscha ibora qaysi? Ovqatlanayotgan odamga aytiladi.",
+    "options": ["잘 먹겠습니다 (jal meokgetseumnida)", "배불러요 (baebulleoyo)", "맛있게 드세요 (masitge deuseyo)", "건배! (geonbae)"],
+    "correct": 2,
+    "explanation": "맛있게 드세요 — «yoqimli ishtaha». 잘 먹겠습니다 ni esa ovqat yeyayotgan odamning o‘zi ovqatdan oldin aytadi, keyin — 잘 먹었습니다."
+  },
+  "2026-11-12": {
+    "question": "🎓 GKS-U grantida bakalavr davrida oylik stipendiya qancha (2027-yil yo‘riqnomasi)?",
+    "options": ["900 000 von", "1 000 000 von", "1 130 000 von", "1 200 000 von"],
+    "correct": 3,
+    "explanation": "Bakalavr davrida oyiga 1 200 000 von. 1 130 000 von — koreys tili kursi yilidagi stipendiya. Manba: 2027 GKS-U yo‘riqnomasi (NIIED)."
+  },
+  "2026-11-13": {
+    "question": "🇰🇷 Koreyadagi ko‘plab binolarning liftida qaysi qavat raqami o‘rniga «F» harfi yoziladi?",
+    "options": ["13-qavat", "4-qavat", "9-qavat", "7-qavat"],
+    "correct": 1,
+    "explanation": "4 koreyschada 사 (sa) deb o‘qiladi va «o‘lim» ma’nosidagi 死 (sa) bilan ohangdosh. Shuning uchun ko‘p liftlarda 4 o‘rniga «F» (four) yoziladi."
+  },
+  "2026-11-14": {
+    "question": "🇰🇷 Do‘konda kassir «Paket kerakmi?» deb so‘radi. «Yo‘q, kerak emas, rahmat» demoqchisiz. Qaysi ibora mos?",
+    "options": ["주세요 (juseyo)", "몰라요 (mollayo)", "괜찮아요 (gwaenchanayo)", "맞아요 (majayo)"],
+    "correct": 2,
+    "explanation": "괜찮아요 — «hammasi joyida». Taklifni muloyim rad etishda («kerak emas, rahmat») va «tuzukman» ma’nosida ham ishlatiladi."
+  },
+  "2026-11-15": {
+    "question": "🇰🇷 2023-yil iyunidan beri Koreyada rasmiy hujjatlarda yosh qanday hisoblanadi?",
+    "options": ["Tug‘ilganda 1 yosh, har yangi yilda +1", "Xalqaro tartibda — tug‘ilgan kundan boshlab", "Qamariy taqvim bo‘yicha", "Maktabga borgan yildan boshlab"],
+    "correct": 1,
+    "explanation": "2023-yil 28-iyundan rasmiy hujjatlarda xalqaro yosh — 만 나이 qo‘llanadi. Kundalik suhbatda eski «koreyscha yosh» hisobi hali ham uchraydi."
+  },
+  "2026-11-16": {
+    "question": "🇰🇷 Imtihon oldidan koreyslar bir-biriga «화이팅!» (hwaiting) deydi. Bu so‘z qaysi inglizcha so‘zdan olingan?",
+    "options": ["waiting — «kutish»", "white — «oq»", "fighting — «kurashish»", "winning — «g‘alaba»"],
+    "correct": 2,
+    "explanation": "화이팅 — inglizcha fighting’dan olingan: «Omad! Uddalaysiz!» ma’nosida. Muqobili — 힘내세요 (himnaeseyo), «bardam bo‘ling»."
+  },
+  "2026-11-17": {
+    "question": "🇰🇷 19-noyabr Koreyada universitetga kirish imtihoni — 수능. Ingliz tili tinglash qismi paytida nima qilinadi?",
+    "options": ["Butun mamlakatda internet o‘chiriladi", "Samolyotlar uchishi va qo‘nishi to‘xtatiladi", "Barcha do‘konlar yopiladi", "Televideniye efiri to‘xtatiladi"],
+    "correct": 1,
+    "explanation": "Tinglash qismi (taxminan 25 daqiqa) davomida samolyotlar uchmaydi va qo‘nmaydi. Shu kuni banklar va birja odatda 1 soat kech ochiladi."
+  },
+  "2026-11-18": {
+    "question": "🎓 GKS-U’da TOPIK 5 yoki 6-darajasi bor talaba uchun nima o‘zgaradi?",
+    "options": ["Hech narsa o‘zgarmaydi", "Intervyusiz qabul qilinadi", "Grant miqdori ikki barobar oshadi", "1 yillik koreys tili kursidan ozod bo‘ladi"],
+    "correct": 3,
+    "explanation": "TOPIK 5–6 bo‘lsa, 1 yillik til kursi o‘tkazib yuboriladi va o‘qish to‘g‘ridan-to‘g‘ri bakalavriatdan boshlanadi (2027 GKS-U yo‘riqnomasi)."
+  },
+  "2026-11-19": {
+    "question": "🇰🇷 Bugun Koreyada 수능 — universitetga kirish imtihoni. Imtihon oldidan qaysi taomni yemaslikka harakat qilishadi?",
+    "options": ["Kimchi", "Bibimbap", "미역국 — dengiz karami sho‘rvasi", "Tteokbokki"],
+    "correct": 2,
+    "explanation": "미역 sirpanchiq: 미끄러지다 — «sirpanmoq» va «imtihondan yiqilmoq». O‘rniga yopishqoq 엿 va 찹쌀떡 sovg‘a qilinadi: 붙다 — «yopishmoq», «o‘tmoq»."
+  },
+  "2026-11-20": {
+    "question": "🇰🇷 Kuz oxirida koreys oilalari qishga yetadigan kimchini birga tayyorlaydi. Bu an’ana qanday ataladi?",
+    "options": ["김장 (gimjang)", "추석 (chuseok)", "설날 (seollal)", "한식 (hansik)"],
+    "correct": 0,
+    "explanation": "김장 — qish uchun kimchi tayyorlash va qo‘ni-qo‘shnilar bilan bo‘lishish an’anasi. 2013-yilda UNESCO nomoddiy madaniy meros ro‘yxatiga kiritilgan."
+  },
+  "2026-11-21": {
+    "question": "🇰🇷 Koreyscha 눈치 (nunchi) so‘zi nimani anglatadi?",
+    "options": ["Ko‘zoynak", "Vaziyat va odamlar kayfiyatini sezish qobiliyati", "Qorli kun", "Kechikib qolish"],
+    "correct": 1,
+    "explanation": "눈치 — aytilmagan narsani sezish. 눈치가 빠르다 — «ziyrak, tez sezadi». Koreyada jamoada va o‘qishda juda qadrlanadigan ko‘nikma."
+  },
+  "2026-11-22": {
+    "question": "🇰🇷 Koreyslar tanishiga «밥 먹었어요?» (bap meogeosseoyo?) deb so‘raydi. Ko‘pincha bu nima?",
+    "options": ["Ovqatga taklif qilish", "Restoranda buyurtma berish", "Ovqatdan shikoyat qilish", "Salomlashish — «ishlaringiz yaxshimi?» kabi"],
+    "correct": 3,
+    "explanation": "So‘zma-so‘z «ovqatlandingizmi?», lekin ko‘pincha g‘amxo‘rlik bildiruvchi salomlashish. Qisqa javob kifoya: 네, 먹었어요 (ne, meogeosseoyo)."
+  }
+}
