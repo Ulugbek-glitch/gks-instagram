@@ -1,10 +1,4 @@
 {
-  "2026-11-09": {
-    "question": "🇰🇷 Ishlayotgan odamga o‘zbeklar «Charchamang!» deydi. Koreyslar bunday paytda nima deydi?",
-    "options": ["안녕하세요 (annyeonghaseyo)", "수고하세요 (sugohaseyo)", "조심하세요 (josimhaseyo)", "식사하세요 (siksahaseyo)"],
-    "correct": 1,
-    "explanation": "수고하세요 — «ishingizga omad, charchamang». Ish tugagach: 수고하셨습니다 yoki 고생 많으셨습니다. Kattalarga, masalan intervyu oxirida, 감사합니다 deyish xavfsiz."
-  },
   "2026-11-10": {
     "question": "🇰🇷 Koreyada 11-noyabr qanday kun sifatida mashhur?",
     "options": ["Pepero kuni — shokoladli tayoqchalar sovg‘a qilinadi", "Hangul kuni — koreys alifbosi bayrami", "Bolalar kuni", "Chuseok — hosil bayrami"],
