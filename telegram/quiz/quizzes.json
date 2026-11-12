@@ -76,5 +76,47 @@
     "options": ["Ovqatga taklif qilish", "Restoranda buyurtma berish", "Ovqatdan shikoyat qilish", "Salomlashish — «ishlaringiz yaxshimi?» kabi"],
     "correct": 3,
     "explanation": "So‘zma-so‘z «ovqatlandingizmi?», lekin ko‘pincha g‘amxo‘rlik bildiruvchi salomlashish. Qisqa javob kifoya: 네, 먹었어요 (ne, meogeosseoyo)."
+  },
+  "2026-11-23": {
+    "question": "🎓 Koreys tili imtihoni TOPIK ikki turga bo‘linadi: TOPIK I va TOPIK II. TOPIK II orqali qaysi darajalarni olish mumkin?",
+    "options": ["1–2-darajalar", "3–6-darajalar", "4–6-darajalar", "1–6-darajalar"],
+    "correct": 1,
+    "explanation": "TOPIK I — 1–2-darajalar: tinglash va o‘qish. TOPIK II — 3–6-darajalar: tinglash, yozish va o‘qish. Daraja umumiy ballga qarab beriladi."
+  },
+  "2026-11-24": {
+    "question": "🇰🇷 Koreys alifbosi — 한글 (hangeul) bugun nechta asosiy harfdan iborat?",
+    "options": ["24 ta", "26 ta", "28 ta", "33 ta"],
+    "correct": 0,
+    "explanation": "Bugun 24 ta asosiy harf bor: 14 undosh va 10 unli. Qirol Sejong 1443-yilda yaratib, 1446-yilda e’lon qilgan alifboda 28 ta harf bo‘lgan, 4 tasi keyinchalik qo‘llanmay qolgan."
+  },
+  "2026-11-25": {
+    "question": "🇰🇷 Darsga kechikib keldingiz va professordan uzr so‘ramoqchisiz. Qaysi ibora eng mos?",
+    "options": ["미안해 (mianhae)", "괜찮아요 (gwaenchanayo)", "죄송합니다 (joesonghamnida)", "고마워요 (gomawoyo)"],
+    "correct": 2,
+    "explanation": "죄송합니다 — eng hurmatli uzr: professor, o‘qituvchi va kattalarga aytiladi. 미안해요 (mianhaeyo) — tanish va tengdoshlarga, 미안해 — faqat yaqin do‘stlarga."
+  },
+  "2026-11-26": {
+    "question": "🎓 2027 GKS-U grantiga yosh bo‘yicha kimlar topshira oladi?",
+    "options": ["2000-yil 1-yanvardan keyin tug‘ilganlar", "2002-yil 1-martdan keyin tug‘ilganlar", "2004-yil 1-sentabrdan keyin tug‘ilganlar", "Yosh chegarasi yo‘q"],
+    "correct": 1,
+    "explanation": "Yosh chegarasi — 25 yoshgacha, ya’ni 2002-yil 1-martdan keyin tug‘ilganlar topshira oladi. Manba: 2027 GKS-U yo‘riqnomasi (NIIED)."
+  },
+  "2026-11-27": {
+    "question": "🇰🇷 Seulda yo‘lovchilar avtobusdan tushayotganda ham T-money kartasini terminalga tekkizadi. Bu nima uchun kerak?",
+    "options": ["Aks holda avtobus eshigi ochilmaydi", "Kartadagi pulni qaytarib olish uchun", "Haydovchiga bekatda to‘xtashni bildirish uchun", "Boshqa avtobus yoki metroga o‘tganda chegirma olish uchun"],
+    "correct": 3,
+    "explanation": "Tushishda kartani tekkizsangiz, 30 daqiqa ichida boshqa avtobus yoki metroga o‘tganda chegirma — 환승 할인 (hwanseung harin) olasiz. Tekkizmasangiz, chegirma bo‘lmaydi."
+  },
+  "2026-11-28": {
+    "question": "🎓 TOPIK natijasi qancha muddat amal qiladi?",
+    "options": ["6 oy", "1 yil", "2 yil", "Muddatsiz"],
+    "correct": 2,
+    "explanation": "TOPIK natijasi imtihon kunidan emas, natijalar e’lon qilingan kundan boshlab 2 yil amal qiladi. Hujjat topshirishdan oldin muddatini tekshiring."
+  },
+  "2026-11-29": {
+    "question": "🇰🇷 Kafeda ofitsiantni chaqirmoqchisiz. Koreyslar odatda nima deydi?",
+    "options": ["저기요! (jeogiyo)", "어서 오세요 (eoseo oseyo)", "잘 먹겠습니다 (jal meokgetseumnida)", "주세요! (juseyo)"],
+    "correct": 0,
+    "explanation": "저기요 — «Kechirasiz!» ma’nosida xodimni chaqirishning odatiy usuli. 여기요 (yeogiyo) — «Bu yerga!» ham kafe va restoranlarda shunday ishlatiladi."
   }
 }
