@@ -36,87 +36,87 @@
     "explanation": "2023-yil 28-iyundan rasmiy hujjatlarda xalqaro yosh — 만 나이 qo‘llanadi. Kundalik suhbatda eski «koreyscha yosh» hisobi hali ham uchraydi."
   },
   "2026-11-16": {
-    "question": "🇰🇷 Imtihon oldidan koreyslar bir-biriga «화이팅!» (hwaiting) deydi. Bu so‘z qaysi inglizcha so‘zdan olingan?",
-    "options": ["waiting — «kutish»", "white — «oq»", "fighting — «kurashish»", "winning — «g‘alaba»"],
-    "correct": 2,
-    "explanation": "화이팅 — inglizcha fighting’dan olingan: «Omad! Uddalaysiz!» ma’nosida. Muqobili — 힘내세요 (himnaeseyo), «bardam bo‘ling»."
+    "question": "🇰🇷 초급 · So‘z. Bo‘sh joyga mos so‘zni tanlang: 저는 지금 버스를 ___.",
+    "options": ["타요", "마셔요", "입어요", "써요"],
+    "correct": 0,
+    "explanation": "Transportga «minmoq» — 타다: 버스를 타요. 마시다 — ichmoq, 입다 — kiymoq, 쓰다 — yozmoq."
   },
   "2026-11-17": {
-    "question": "🇰🇷 19-noyabr Koreyada universitetga kirish imtihoni — 수능. Ingliz tili tinglash qismi paytida nima qilinadi?",
-    "options": ["Butun mamlakatda internet o‘chiriladi", "Samolyotlar uchishi va qo‘nishi to‘xtatiladi", "Barcha do‘konlar yopiladi", "Televideniye efiri to‘xtatiladi"],
-    "correct": 1,
-    "explanation": "Tinglash qismi (taxminan 25 daqiqa) davomida samolyotlar uchmaydi va qo‘nmaydi. Shu kuni banklar va birja odatda 1 soat kech ochiladi."
+    "question": "🇰🇷 초급 · Grammatika. Bo‘sh joyga qaysi qo‘shimcha mos? 저는 사과___ 좋아해요.",
+    "options": ["가", "에", "를", "을"],
+    "correct": 2,
+    "explanation": "좋아하다 tushum kelishigini oladi. Unli bilan tugasa 를, undosh bilan tugasa 을: 사과를, 빵을. 가 esa 좋다 bilan: 사과가 좋아요."
   },
   "2026-11-18": {
-    "question": "🎓 GKS-U’da TOPIK 5 yoki 6-darajasi bor talaba uchun nima o‘zgaradi?",
-    "options": ["Hech narsa o‘zgarmaydi", "Intervyusiz qabul qilinadi", "Grant miqdori ikki barobar oshadi", "1 yillik koreys tili kursidan ozod bo‘ladi"],
-    "correct": 3,
-    "explanation": "TOPIK 5–6 bo‘lsa, 1 yillik til kursi o‘tkazib yuboriladi va o‘qish to‘g‘ridan-to‘g‘ri bakalavriatdan boshlanadi (2027 GKS-U yo‘riqnomasi)."
+    "question": "🇰🇷 중급 · So‘z. «Va’dasida turmoq, va’dani bajarmoq» koreyscha qanday? 약속을 ___",
+    "options": ["잡다", "지키다", "막다", "세우다"],
+    "correct": 1,
+    "explanation": "약속을 지키다 — va’dada turmoq. 약속을 잡다 — uchrashuv vaqtini belgilamoq. 세우다 rejaga ishlatiladi: 계획을 세우다 — reja tuzmoq."
   },
   "2026-11-19": {
-    "question": "🇰🇷 Bugun Koreyada 수능 — universitetga kirish imtihoni. Imtihon oldidan qaysi taomni yemaslikka harakat qilishadi?",
-    "options": ["Kimchi", "Bibimbap", "미역국 — dengiz karami sho‘rvasi", "Tteokbokki"],
-    "correct": 2,
-    "explanation": "미역 sirpanchiq: 미끄러지다 — «sirpanmoq» va «imtihondan yiqilmoq». O‘rniga yopishqoq 엿 va 찹쌀떡 sovg‘a qilinadi: 붙다 — «yopishmoq», «o‘tmoq»."
+    "question": "🇰🇷 중급 · Grammatika. Bo‘sh joyga mos shaklni tanlang: 비가 많이 ( ) 우산을 가져가세요.",
+    "options": ["오지만", "와서", "오려고", "오니까"],
+    "correct": 3,
+    "explanation": "Sabab + buyruq (-세요) bo‘lsa -(으)니까 ishlatiladi: 오니까. -아서/어서 dan keyin buyruq yoki taklif kelmaydi."
   },
   "2026-11-20": {
-    "question": "🇰🇷 Kuz oxirida koreys oilalari qishga yetadigan kimchini birga tayyorlaydi. Bu an’ana qanday ataladi?",
-    "options": ["김장 (gimjang)", "추석 (chuseok)", "설날 (seollal)", "한식 (hansik)"],
-    "correct": 0,
-    "explanation": "김장 — qish uchun kimchi tayyorlash va qo‘ni-qo‘shnilar bilan bo‘lishish an’anasi. 2013-yilda UNESCO nomoddiy madaniy meros ro‘yxatiga kiritilgan."
+    "question": "🇰🇷 고급 · Ibora. «그 사람은 발이 넓어요.» Bu gap nimani anglatadi?",
+    "options": ["Uning oyog‘i katta", "Uning tanish-bilishi ko‘p", "U ko‘p sayohat qiladi", "U tez yuradi"],
+    "correct": 1,
+    "explanation": "발이 넓다 — so‘zma-so‘z «oyog‘i keng», ma’nosi «tanishlari ko‘p». Bu 관용구 (turg‘un ibora): so‘zlar alohida ma’nosidan boshqa ma’no beradi."
   },
   "2026-11-21": {
-    "question": "🇰🇷 Koreyscha 눈치 (nunchi) so‘zi nimani anglatadi?",
-    "options": ["Ko‘zoynak", "Vaziyat va odamlar kayfiyatini sezish qobiliyati", "Qorli kun", "Kechikib qolish"],
-    "correct": 1,
-    "explanation": "눈치 — aytilmagan narsani sezish. 눈치가 빠르다 — «ziyrak, tez sezadi». Koreyada jamoada va o‘qishda juda qadrlanadigan ko‘nikma."
+    "question": "🇰🇷 고급 · Grammatika. Bo‘sh joyga mos shaklni tanlang: 늦잠을 자는 ( ) 수업에 늦었어요.",
+    "options": ["덕분에", "대신에", "바람에", "김에"],
+    "correct": 2,
+    "explanation": "-는 바람에 — kutilmagan sabab tufayli yomon natija: «uxlab qolganim sababli darsga kechikdim». Yaxshi natija uchun -(으)ㄴ 덕분에 ishlatiladi."
   },
   "2026-11-22": {
-    "question": "🇰🇷 Koreyslar tanishiga «밥 먹었어요?» (bap meogeosseoyo?) deb so‘raydi. Ko‘pincha bu nima?",
-    "options": ["Ovqatga taklif qilish", "Restoranda buyurtma berish", "Ovqatdan shikoyat qilish", "Salomlashish — «ishlaringiz yaxshimi?» kabi"],
+    "question": "🇰🇷 초급 · So‘z tuzilishi. 학교, 학생, 대학교 so‘zlaridagi umumiy 학 (學) qismi nimani anglatadi?",
+    "options": ["Bino", "Odam", "Katta", "O‘qish, ta’lim"],
     "correct": 3,
-    "explanation": "So‘zma-so‘z «ovqatlandingizmi?», lekin ko‘pincha g‘amxo‘rlik bildiruvchi salomlashish. Qisqa javob kifoya: 네, 먹었어요 (ne, meogeosseoyo)."
+    "explanation": "학 (學) — «o‘qish». 교 (校) — maktab, 생 (生) — hayot, kishi, 대 (大) — katta. Demak 대학교 — «katta maktab», ya’ni universitet."
   },
   "2026-11-23": {
-    "question": "🎓 Koreys tili imtihoni TOPIK ikki turga bo‘linadi: TOPIK I va TOPIK II. TOPIK II orqali qaysi darajalarni olish mumkin?",
-    "options": ["1–2-darajalar", "3–6-darajalar", "4–6-darajalar", "1–6-darajalar"],
-    "correct": 1,
-    "explanation": "TOPIK I — 1–2-darajalar: tinglash va o‘qish. TOPIK II — 3–6-darajalar: tinglash, yozish va o‘qish. Daraja umumiy ballga qarab beriladi."
+    "question": "🇰🇷 초급 · So‘z. «크다» (katta) so‘zining zid ma’nolisi qaysi?",
+    "options": ["작다", "많다", "길다", "높다"],
+    "correct": 0,
+    "explanation": "크다 ↔ 작다 (katta — kichik). Boshqalari ham juft: 많다 ↔ 적다 (ko‘p — oz), 길다 ↔ 짧다 (uzun — qisqa), 높다 ↔ 낮다 (baland — past)."
   },
   "2026-11-24": {
-    "question": "🇰🇷 Koreys alifbosi — 한글 (hangeul) bugun nechta asosiy harfdan iborat?",
-    "options": ["24 ta", "26 ta", "28 ta", "33 ta"],
-    "correct": 0,
-    "explanation": "Bugun 24 ta asosiy harf bor: 14 undosh va 10 unli. Qirol Sejong 1443-yilda yaratib, 1446-yilda e’lon qilgan alifboda 28 ta harf bo‘lgan, 4 tasi keyinchalik qo‘llanmay qolgan."
+    "question": "🇰🇷 초급 · Grammatika. Bo‘sh joyga qaysi qo‘shimcha mos? 저는 도서관___ 공부해요.",
+    "options": ["에", "에서", "를", "로"],
+    "correct": 1,
+    "explanation": "Harakat bajariladigan joy — 에서: 도서관에서 공부해요. 에 — borish yo‘nalishi yoki turgan joy: 도서관에 가요, 집에 있어요."
   },
   "2026-11-25": {
-    "question": "🇰🇷 Darsga kechikib keldingiz va professordan uzr so‘ramoqchisiz. Qaysi ibora eng mos?",
-    "options": ["미안해 (mianhae)", "괜찮아요 (gwaenchanayo)", "죄송합니다 (joesonghamnida)", "고마워요 (gomawoyo)"],
+    "question": "🇰🇷 중급 · So‘z. Yaqin do‘stingiz vataniga butunlay qaytyapti, ayrilish sizni g‘amgin qilyapti. Qaysi so‘z mos? 친구가 고향으로 돌아가서 ___.",
+    "options": ["답답해요", "귀찮아요", "섭섭해요", "부러워요"],
     "correct": 2,
-    "explanation": "죄송합니다 — eng hurmatli uzr: professor, o‘qituvchi va kattalarga aytiladi. 미안해요 (mianhaeyo) — tanish va tengdoshlarga, 미안해 — faqat yaqin do‘stlarga."
+    "explanation": "섭섭하다 — ayrilish yoki e’tiborsizlikdan ko‘ngil g‘ash bo‘lishi. 답답하다 — siqilmoq, 귀찮다 — erinmoq, 부럽다 — havas qilmoq."
   },
   "2026-11-26": {
-    "question": "🎓 2027 GKS-U grantiga yosh bo‘yicha kimlar topshira oladi?",
-    "options": ["2000-yil 1-yanvardan keyin tug‘ilganlar", "2002-yil 1-martdan keyin tug‘ilganlar", "2004-yil 1-sentabrdan keyin tug‘ilganlar", "Yosh chegarasi yo‘q"],
-    "correct": 1,
-    "explanation": "Yosh chegarasi — 25 yoshgacha, ya’ni 2002-yil 1-martdan keyin tug‘ilganlar topshira oladi. Manba: 2027 GKS-U yo‘riqnomasi (NIIED)."
+    "question": "🇰🇷 중급 · Grammatika. Maqsadni bildiruvchi shaklni tanlang: 한국 대학교에 ( ) 한국어를 배우고 있어요.",
+    "options": ["입학해서", "입학하면", "입학하지만", "입학하려고"],
+    "correct": 3,
+    "explanation": "-(으)려고 — maqsad: «kirish uchun koreys tilini o‘rganyapman». -아서 — sabab yoki ketma-ketlik, -(으)면 — shart, -지만 — qarama-qarshilik."
   },
   "2026-11-27": {
-    "question": "🇰🇷 Seulda yo‘lovchilar avtobusdan tushayotganda ham T-money kartasini terminalga tekkizadi. Bu nima uchun kerak?",
-    "options": ["Aks holda avtobus eshigi ochilmaydi", "Kartadagi pulni qaytarib olish uchun", "Haydovchiga bekatda to‘xtashni bildirish uchun", "Boshqa avtobus yoki metroga o‘tganda chegirma olish uchun"],
-    "correct": 3,
-    "explanation": "Tushishda kartani tekkizsangiz, 30 daqiqa ichida boshqa avtobus yoki metroga o‘tganda chegirma — 환승 할인 (hwanseung harin) olasiz. Tekkizmasangiz, chegirma bo‘lmaydi."
+    "question": "🇰🇷 고급 · Ibora. «요즘 눈코 뜰 새 없어요.» Bu gap nimani anglatadi?",
+    "options": ["Juda bandman", "Uyqum kelyapti", "Ko‘zim og‘riyapti", "Hech narsani ko‘rmayapman"],
+    "correct": 0,
+    "explanation": "눈코 뜰 새 없다 — «ko‘z va burunni ochishga ham vaqt yo‘q», ya’ni juda band. Ko‘pincha 바쁘다 bilan: 눈코 뜰 새 없이 바빠요."
   },
   "2026-11-28": {
-    "question": "🎓 TOPIK natijasi qancha muddat amal qiladi?",
-    "options": ["6 oy", "1 yil", "2 yil", "Muddatsiz"],
-    "correct": 2,
-    "explanation": "TOPIK natijasi imtihon kunidan emas, natijalar e’lon qilingan kundan boshlab 2 yil amal qiladi. Hujjat topshirishdan oldin muddatini tekshiring."
+    "question": "🇰🇷 고급 · Grammatika. «Yiqilishimga sal qoldi» ma’nosini qaysi shakl beradi? 길이 미끄러워서 ( ).",
+    "options": ["넘어질 줄 알았어요", "넘어질 뻔했어요", "넘어지곤 했어요", "넘어지기로 했어요"],
+    "correct": 1,
+    "explanation": "-(으)ㄹ 뻔하다 — deyarli sodir bo‘ldi, lekin bo‘lmadi. -곤 하다 — odatda shunday qilardim, -기로 하다 — shunday qilishga qaror qildim."
   },
   "2026-11-29": {
-    "question": "🇰🇷 Kafeda ofitsiantni chaqirmoqchisiz. Koreyslar odatda nima deydi?",
-    "options": ["저기요! (jeogiyo)", "어서 오세요 (eoseo oseyo)", "잘 먹겠습니다 (jal meokgetseumnida)", "주세요! (juseyo)"],
-    "correct": 0,
-    "explanation": "저기요 — «Kechirasiz!» ma’nosida xodimni chaqirishning odatiy usuli. 여기요 (yeogiyo) — «Bu yerga!» ham kafe va restoranlarda shunday ishlatiladi."
+    "question": "🇰🇷 중급 · So‘z tuzilishi. 맨발, 맨손 so‘zlaridagi 맨- old qo‘shimchasi nimani bildiradi?",
+    "options": ["Eng", "Katta", "Hech narsasiz, yalang", "Yangi"],
+    "correct": 2,
+    "explanation": "맨- — «yalang»: 맨발 — yalangoyoq, 맨손 — yalang qo‘l. 맨 앞, 맨 처음 dagi 맨 esa «eng» ma’noli alohida so‘z, u ajratib yoziladi."
   }
 }
