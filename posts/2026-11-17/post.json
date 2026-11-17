@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-17",
+  "topic": "Intervyuda o‘zini tutish: 5 ta qoida",
+  "pillar": "intervyu",
+  "slides": [
+    {
+      "type": "cover",
+      "kicker": "GKS-U · Intervyu",
+      "title": "Intervyuda o‘zini tutish:\n*5 ta qoida*",
+      "subtitle": "Javoblaringiz qanchalik puxta bo‘lmasin, suhbatda o‘zingizni qanday tutishingiz ham muhim. Elchixona va universitet intervyusi uchun besh asosiy qoida."
+    },
+    {
+      "type": "point",
+      "title": "Vaqtida va tayyor holda keling",
+      "body": "Suhbat joyiga biroz oldinroq yetib keling va telefoningizni ovozsiz rejimga o‘tkazing. Onlayn suhbat bo‘lsa, kamera, mikrofon va internetni oldindan tekshiring, tinch va yorug‘ xona tanlang. Sizdan so‘ralgan hujjatlarni ham avvaldan tayyorlab qo‘ying."
+    },
+    {
+      "type": "list",
+      "title": "Birinchi taassurotga e’tibor bering",
+      "items": [
+        "Ozoda, rasmiy uslubdagi kiyim tanlang",
+        "Xonaga kirganda xushmuomalalik bilan salomlashing",
+        "Sizga o‘tirishni taklif qilishgach, o‘tiring",
+        "Qaddingizni tik tutib, savol bergan kishiga qarab gapiring"
+      ]
+    },
+    {
+      "type": "point",
+      "title": "Savolni oxirigacha tinglang",
+      "body": "Javob berishga shoshilmang: savolni diqqat bilan tinglang va fikringizni jamlash uchun bir lahza o‘ylab oling. Savolni tushunmagan bo‘lsangiz, uni takrorlashlarini xushmuomalalik bilan so‘rang. So‘ng qisqa va aniq javob bering."
+    },
+    {
+      "type": "point",
+      "title": "Bilmasangiz, to‘qib gapirmang",
+      "body": "Javobini bilmagan savolga duch kelsangiz, buni ochiq tan oling va shu mavzu bo‘yicha bilganingizni yoki o‘z fikringizni qisqa ayting. To‘qib chiqarilgan javob keyingi savollarda tez sezilib qoladi. Yutuqlaringizni ham bo‘rttirib gapirmang."
+    },
+    {
+      "type": "point",
+      "title": "Suhbatni odob bilan yakunlang",
+      "body": "Oxirida “Savolingiz bormi?” deb so‘rashsa, oldindan tayyorlagan qisqa savolingizni bering: masalan, o‘qish dasturi yoki talabalar hayoti haqida. Xayrlashayotganda vaqt ajratganlari uchun minnatdorchilik bildiring. Xonadan chiqib ketguningizcha xotirjam va xushmuomala bo‘ling."
+    },
+    {
+      "type": "cta",
+      "title": "Intervyuga tayyorlanayotgan *do‘stingiz* bormi?",
+      "body": "Bu besh qoida unga ham asqotadi. Postni yuboring va o‘zingiz uchun ham saqlab qo‘ying.",
+      "button": "Do‘stingizga yuboring"
+    }
+  ],
+  "caption": "GKS grant intervyusida o‘zingizni qanday tutish kerak? Besh asosiy qoidani slaydlarda jamladik, bu yerda esa yana uchta amaliy maslahat.\n\n1. Kiyimingiz va hujjatlaringizni oldingi kuni tayyorlab qo‘ying, manzil va yo‘lni ham oldindan aniqlang. Ertalab shoshilmasangiz, suhbatga xotirjamroq kirasiz.\n\n2. Onlayn suhbatda ekrandagi tasvirga emas, kameraga qarab gapiring: shunda suhbatdoshingizga qarab gapirayotgandek ko‘rinasiz. Ekranda ko‘rinadigan ismingiz to‘liq va to‘g‘ri yozilganini ham tekshiring.\n\n3. Ayrim universitetlar 3-bosqichda nomzodlar bilan suhbat o‘tkazishi mumkin. Elchixona yo‘lida bu bosqich 23-dekabrgacha (Koreya vaqti bilan) davom etadi, shuning uchun elektron pochtangizni, jumladan “Spam” papkasini ham muntazam tekshirib turing.\n\nPostni saqlab qo‘ying va intervyuga tayyorlanayotgan do‘stingizga yuboring. Obuna bo‘ling — har kuni GKS bo‘yicha foydali kontent.\n\n📌 Telegram: t.me/gks_academic\n🌐 Sayt: gks-academics.gks-academics.workers.dev\n\n#GKS #GKSU #GlobalKoreaScholarship #KoreyadaOqish #abituriyent"
+}
