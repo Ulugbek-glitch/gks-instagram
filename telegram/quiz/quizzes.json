@@ -1,16 +1,4 @@
 {
-  "2026-11-10": {
-    "question": "🇰🇷 Koreyada 11-noyabr qanday kun sifatida mashhur?",
-    "options": ["Pepero kuni — shokoladli tayoqchalar sovg‘a qilinadi", "Hangul kuni — koreys alifbosi bayrami", "Bolalar kuni", "Chuseok — hosil bayrami"],
-    "correct": 0,
-    "explanation": "11.11 to‘rtta ingichka Pepero tayoqchasiga o‘xshaydi, shu kuni yaqinlarga Pepero sovg‘a qilinadi. Hangul kuni — 9-oktabr, Bolalar kuni — 5-may."
-  },
-  "2026-11-11": {
-    "question": "🇰🇷 O‘zbekcha «Osh bo‘lsin!»ga eng yaqin koreyscha ibora qaysi? Ovqatlanayotgan odamga aytiladi.",
-    "options": ["잘 먹겠습니다 (jal meokgetseumnida)", "배불러요 (baebulleoyo)", "맛있게 드세요 (masitge deuseyo)", "건배! (geonbae)"],
-    "correct": 2,
-    "explanation": "맛있게 드세요 — «yoqimli ishtaha». 잘 먹겠습니다 ni esa ovqat yeyayotgan odamning o‘zi ovqatdan oldin aytadi, keyin — 잘 먹었습니다."
-  },
   "2026-11-12": {
     "question": "🎓 GKS-U grantida bakalavr davrida oylik stipendiya qancha (2027-yil yo‘riqnomasi)?",
     "options": ["900 000 von", "1 000 000 von", "1 130 000 von", "1 200 000 von"],
@@ -118,5 +106,47 @@
     "options": ["Eng", "Katta", "Hech narsasiz, yalang", "Yangi"],
     "correct": 2,
     "explanation": "맨- — «yalang»: 맨발 — yalangoyoq, 맨손 — yalang qo‘l. 맨 앞, 맨 처음 dagi 맨 esa «eng» ma’noli alohida so‘z, u ajratib yoziladi."
+  },
+  "2026-11-30": {
+    "question": "🇰🇷 초급 · So‘z. Bo‘sh joyga mos so‘zni tanlang: 날씨가 추워서 장갑을 ___.",
+    "options": ["입어요", "신어요", "차요", "껴요"],
+    "correct": 3,
+    "explanation": "Qo‘lqop va uzuk — 끼다: 장갑을 껴요. Kiyim — 입다, poyabzal va paypoq — 신다, soat — 차다. «Kiymoq» fe’li narsaga qarab tanlanadi."
+  },
+  "2026-12-01": {
+    "question": "🇰🇷 초급 · Grammatika. «Bugun o‘qishim kerak» ma’nosini beradigan shaklni tanlang: 내일 시험이 있어서 오늘 ( ).",
+    "options": ["공부해야 해요", "공부해도 돼요", "공부하면 안 돼요", "공부하지 마세요"],
+    "correct": 0,
+    "explanation": "-아/어야 하다 — majburiyat: «o‘qishim kerak». -아/어도 되다 — ruxsat («o‘qisangiz bo‘ladi»), -(으)면 안 되다 — «o‘qish mumkin emas», -지 마세요 — «o‘qimang»."
+  },
+  "2026-12-02": {
+    "question": "🇰🇷 중급 · So‘z. Bo‘sh joyga mos so‘zni tanlang: 이번 학기 ___이 너무 비싸서 장학금을 신청했어요.",
+    "options": ["학점", "용돈", "등록금", "전공"],
+    "correct": 2,
+    "explanation": "등록금 — universitetga to‘lanadigan o‘qish to‘lovi. 장학금 — stipendiya, grant; 용돈 — cho‘ntak puli. GKS granti o‘qish to‘lovini qoplaydi."
+  },
+  "2026-12-03": {
+    "question": "🇰🇷 중급 · Grammatika. Bo‘sh joyga mos shaklni tanlang: 제가 음식을 ( ) 음료수를 사 오세요.",
+    "options": ["준비해서", "준비할 테니까", "준비하느라고", "준비하더니"],
+    "correct": 1,
+    "explanation": "-(으)ㄹ 테니까 — niyat + iltimos: «men ovqat tayyorlayman, siz ichimlik olib keling». Sabab bildiruvchi -아서 dan keyin buyruq kelmaydi, -느라고 da esa ikkala qismning egasi bir xil bo‘ladi."
+  },
+  "2026-12-04": {
+    "question": "🇰🇷 고급 · Ibora. «제 친구는 귀가 얇아요.» Bu gap nimani anglatadi?",
+    "options": ["U boshqalarning gapiga tez ishonadi", "U yaxshi eshitmaydi", "U sir saqlay olmaydi", "U tez xafa bo‘ladi"],
+    "correct": 0,
+    "explanation": "귀가 얇다 — so‘zma-so‘z «qulog‘i yupqa», ma’nosi «birovning gapiga tez ishonadi, tez ko‘nadi». Sir saqlay olmaslik — 입이 가볍다, sir saqlash — 입이 무겁다."
+  },
+  "2026-12-05": {
+    "question": "🇰🇷 고급 · Grammatika. «Boshida hamma xato qiladi, bu tabiiy» ma’nosini beradigan shaklni tanlang: 처음에는 누구나 ( ).",
+    "options": ["실수하는 셈이에요", "실수할 리가 없어요", "실수하는 척해요", "실수하기 마련이에요"],
+    "correct": 3,
+    "explanation": "-기 마련이다 — tabiiy, muqarrar hol: «hamma xato qiladi, bu tabiiy». -(으)ㄹ 리가 없다 — «bo‘lishi mumkin emas», -는 척하다 — «o‘zini …ga solmoq»."
+  },
+  "2026-12-06": {
+    "question": "🇰🇷 고급 · So‘z tuzilishi. 세계화, 자동화, 고령화 so‘zlaridagi -화 (化) qo‘shimchasi nimani bildiradi?",
+    "options": ["Kasb egasi, mutaxassis", "-lashuv, aylanish", "Bino, joy", "Rasm, surat"],
+    "correct": 1,
+    "explanation": "-화 (化) — «-lashuv, aylanish»: 세계화 — globallashuv, 자동화 — avtomatlashtirish, 고령화 — aholining qarishi. 수채화 dagi 화 (畫) esa «rasm» ma’nosida."
   }
 }
